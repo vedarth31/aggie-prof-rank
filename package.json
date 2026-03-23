@@ -1,0 +1,38 @@
+{
+  "name": "prof-rec-v2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "collect:data": "tsx scripts/collect-data.ts",
+    "collect:rmp-reviews": "tsx scripts/collect-rmp-reviews.ts",
+    "db:counts": "tsx scripts/db-counts.ts",
+    "export:chart-data": "tsx scripts/export-chart-data.ts",
+    "generate:charts": ".venv/bin/python scripts/generate-checkpoint-charts.py",
+    "checkpoint:charts": "npm run export:chart-data && npm run generate:charts"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.5.0",
+    "@prisma/client": "^7.5.0",
+    "api-rmp": "^1.1.5",
+    "next": "16.2.1",
+    "prisma": "^7.5.0",
+    "ratemyprofessor-api": "^1.0.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

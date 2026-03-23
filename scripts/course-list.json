@@ -1,0 +1,7722 @@
+[
+    {
+        "dept": "ACCT",
+        "number": "209"
+    },
+    {
+        "dept": "ACCT",
+        "number": "210"
+    },
+    {
+        "dept": "ACCT",
+        "number": "229"
+    },
+    {
+        "dept": "ACCT",
+        "number": "230"
+    },
+    {
+        "dept": "ACCT",
+        "number": "327"
+    },
+    {
+        "dept": "ACCT",
+        "number": "328"
+    },
+    {
+        "dept": "ACCT",
+        "number": "427"
+    },
+    {
+        "dept": "ACCT",
+        "number": "430"
+    },
+    {
+        "dept": "ACCT",
+        "number": "445"
+    },
+    {
+        "dept": "ACCT",
+        "number": "447"
+    },
+    {
+        "dept": "AERO",
+        "number": "201"
+    },
+    {
+        "dept": "AERO",
+        "number": "211"
+    },
+    {
+        "dept": "AERO",
+        "number": "212"
+    },
+    {
+        "dept": "AERO",
+        "number": "214"
+    },
+    {
+        "dept": "AERO",
+        "number": "221"
+    },
+    {
+        "dept": "AERO",
+        "number": "222"
+    },
+    {
+        "dept": "AERO",
+        "number": "301"
+    },
+    {
+        "dept": "AERO",
+        "number": "303"
+    },
+    {
+        "dept": "AERO",
+        "number": "304"
+    },
+    {
+        "dept": "AERO",
+        "number": "306"
+    },
+    {
+        "dept": "AERO",
+        "number": "307"
+    },
+    {
+        "dept": "AERO",
+        "number": "310"
+    },
+    {
+        "dept": "AERO",
+        "number": "321"
+    },
+    {
+        "dept": "AERO",
+        "number": "351"
+    },
+    {
+        "dept": "AERO",
+        "number": "401"
+    },
+    {
+        "dept": "AERO",
+        "number": "413"
+    },
+    {
+        "dept": "AERO",
+        "number": "422"
+    },
+    {
+        "dept": "AERO",
+        "number": "423"
+    },
+    {
+        "dept": "AERO",
+        "number": "436"
+    },
+    {
+        "dept": "AERO",
+        "number": "438"
+    },
+    {
+        "dept": "AERS",
+        "number": "101"
+    },
+    {
+        "dept": "AERS",
+        "number": "102"
+    },
+    {
+        "dept": "AERS",
+        "number": "105"
+    },
+    {
+        "dept": "AERS",
+        "number": "106"
+    },
+    {
+        "dept": "AERS",
+        "number": "201"
+    },
+    {
+        "dept": "AERS",
+        "number": "202"
+    },
+    {
+        "dept": "AERS",
+        "number": "303"
+    },
+    {
+        "dept": "AERS",
+        "number": "304"
+    },
+    {
+        "dept": "AERS",
+        "number": "403"
+    },
+    {
+        "dept": "AERS",
+        "number": "404"
+    },
+    {
+        "dept": "AFST",
+        "number": "201"
+    },
+    {
+        "dept": "AFST",
+        "number": "204"
+    },
+    {
+        "dept": "AFST",
+        "number": "205"
+    },
+    {
+        "dept": "AFST",
+        "number": "206"
+    },
+    {
+        "dept": "AFST",
+        "number": "209"
+    },
+    {
+        "dept": "AFST",
+        "number": "252"
+    },
+    {
+        "dept": "AFST",
+        "number": "261"
+    },
+    {
+        "dept": "AFST",
+        "number": "300"
+    },
+    {
+        "dept": "AFST",
+        "number": "301"
+    },
+    {
+        "dept": "AFST",
+        "number": "302"
+    },
+    {
+        "dept": "AFST",
+        "number": "303"
+    },
+    {
+        "dept": "AFST",
+        "number": "317"
+    },
+    {
+        "dept": "AFST",
+        "number": "323"
+    },
+    {
+        "dept": "AFST",
+        "number": "327"
+    },
+    {
+        "dept": "AFST",
+        "number": "329"
+    },
+    {
+        "dept": "AFST",
+        "number": "338"
+    },
+    {
+        "dept": "AFST",
+        "number": "339"
+    },
+    {
+        "dept": "AFST",
+        "number": "344"
+    },
+    {
+        "dept": "AFST",
+        "number": "345"
+    },
+    {
+        "dept": "AFST",
+        "number": "346"
+    },
+    {
+        "dept": "AFST",
+        "number": "352"
+    },
+    {
+        "dept": "AFST",
+        "number": "353"
+    },
+    {
+        "dept": "AFST",
+        "number": "357"
+    },
+    {
+        "dept": "AFST",
+        "number": "377"
+    },
+    {
+        "dept": "AFST",
+        "number": "379"
+    },
+    {
+        "dept": "AFST",
+        "number": "393"
+    },
+    {
+        "dept": "AFST",
+        "number": "398"
+    },
+    {
+        "dept": "AFST",
+        "number": "400"
+    },
+    {
+        "dept": "AFST",
+        "number": "401"
+    },
+    {
+        "dept": "AFST",
+        "number": "422"
+    },
+    {
+        "dept": "AFST",
+        "number": "425"
+    },
+    {
+        "dept": "AFST",
+        "number": "430"
+    },
+    {
+        "dept": "AFST",
+        "number": "651"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "105"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "281"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "301"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "306"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "311"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "312"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "313"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "314"
+    },
+    {
+        "dept": "AGCJ",
+        "number": "355"
+    },
+    {
+        "dept": "AGEC",
+        "number": "105"
+    },
+    {
+        "dept": "AGEC",
+        "number": "117"
+    },
+    {
+        "dept": "AGEC",
+        "number": "216"
+    },
+    {
+        "dept": "AGEC",
+        "number": "217"
+    },
+    {
+        "dept": "AGEC",
+        "number": "223"
+    },
+    {
+        "dept": "AGEC",
+        "number": "314"
+    },
+    {
+        "dept": "AGEC",
+        "number": "315"
+    },
+    {
+        "dept": "AGEC",
+        "number": "316"
+    },
+    {
+        "dept": "AGEC",
+        "number": "317"
+    },
+    {
+        "dept": "AGEC",
+        "number": "330"
+    },
+    {
+        "dept": "AGEC",
+        "number": "340"
+    },
+    {
+        "dept": "AGEC",
+        "number": "422"
+    },
+    {
+        "dept": "AGEC",
+        "number": "423"
+    },
+    {
+        "dept": "AGEC",
+        "number": "424"
+    },
+    {
+        "dept": "AGEC",
+        "number": "429"
+    },
+    {
+        "dept": "AGLS",
+        "number": "101"
+    },
+    {
+        "dept": "AGLS",
+        "number": "292"
+    },
+    {
+        "dept": "AGLS",
+        "number": "392"
+    },
+    {
+        "dept": "AGSC",
+        "number": "302"
+    },
+    {
+        "dept": "AGSC",
+        "number": "373"
+    },
+    {
+        "dept": "AGSC",
+        "number": "383"
+    },
+    {
+        "dept": "AGSC",
+        "number": "402"
+    },
+    {
+        "dept": "AGSC",
+        "number": "405"
+    },
+    {
+        "dept": "AGSC",
+        "number": "425"
+    },
+    {
+        "dept": "AGSC",
+        "number": "436"
+    },
+    {
+        "dept": "AGSC",
+        "number": "481"
+    },
+    {
+        "dept": "AGSC",
+        "number": "484"
+    },
+    {
+        "dept": "AGSM",
+        "number": "201"
+    },
+    {
+        "dept": "AGSM",
+        "number": "301"
+    },
+    {
+        "dept": "AGSM",
+        "number": "310"
+    },
+    {
+        "dept": "AGSM",
+        "number": "315"
+    },
+    {
+        "dept": "AGSM",
+        "number": "325"
+    },
+    {
+        "dept": "AGSM",
+        "number": "360"
+    },
+    {
+        "dept": "AGSM",
+        "number": "439"
+    },
+    {
+        "dept": "AGSM",
+        "number": "440"
+    },
+    {
+        "dept": "AGSM",
+        "number": "461"
+    },
+    {
+        "dept": "ALEC",
+        "number": "370"
+    },
+    {
+        "dept": "ALEC",
+        "number": "371"
+    },
+    {
+        "dept": "ALED",
+        "number": "125"
+    },
+    {
+        "dept": "ALED",
+        "number": "202"
+    },
+    {
+        "dept": "ALED",
+        "number": "301"
+    },
+    {
+        "dept": "ALED",
+        "number": "340"
+    },
+    {
+        "dept": "ALED",
+        "number": "424"
+    },
+    {
+        "dept": "ALED",
+        "number": "440"
+    },
+    {
+        "dept": "ANSC",
+        "number": "101"
+    },
+    {
+        "dept": "ANSC",
+        "number": "107"
+    },
+    {
+        "dept": "ANSC",
+        "number": "108"
+    },
+    {
+        "dept": "ANSC",
+        "number": "111"
+    },
+    {
+        "dept": "ANSC",
+        "number": "113"
+    },
+    {
+        "dept": "ANSC",
+        "number": "201"
+    },
+    {
+        "dept": "ANSC",
+        "number": "303"
+    },
+    {
+        "dept": "ANSC",
+        "number": "305"
+    },
+    {
+        "dept": "ANSC",
+        "number": "307"
+    },
+    {
+        "dept": "ANSC",
+        "number": "309"
+    },
+    {
+        "dept": "ANSC",
+        "number": "318"
+    },
+    {
+        "dept": "ANSC",
+        "number": "320"
+    },
+    {
+        "dept": "ANSC",
+        "number": "326"
+    },
+    {
+        "dept": "ANSC",
+        "number": "327"
+    },
+    {
+        "dept": "ANSC",
+        "number": "333"
+    },
+    {
+        "dept": "ANSC",
+        "number": "334"
+    },
+    {
+        "dept": "ANSC",
+        "number": "457"
+    },
+    {
+        "dept": "ANSC",
+        "number": "470"
+    },
+    {
+        "dept": "ANSC",
+        "number": "487"
+    },
+    {
+        "dept": "ANTH",
+        "number": "201"
+    },
+    {
+        "dept": "ANTH",
+        "number": "202"
+    },
+    {
+        "dept": "ANTH",
+        "number": "204"
+    },
+    {
+        "dept": "ANTH",
+        "number": "205"
+    },
+    {
+        "dept": "ANTH",
+        "number": "210"
+    },
+    {
+        "dept": "ANTH",
+        "number": "225"
+    },
+    {
+        "dept": "ANTH",
+        "number": "226"
+    },
+    {
+        "dept": "ANTH",
+        "number": "301"
+    },
+    {
+        "dept": "ANTH",
+        "number": "316"
+    },
+    {
+        "dept": "ANTH",
+        "number": "317"
+    },
+    {
+        "dept": "ANTH",
+        "number": "324"
+    },
+    {
+        "dept": "ANTH",
+        "number": "340"
+    },
+    {
+        "dept": "ANTH",
+        "number": "353"
+    },
+    {
+        "dept": "ANTH",
+        "number": "354"
+    },
+    {
+        "dept": "ANTH",
+        "number": "382"
+    },
+    {
+        "dept": "ANTH",
+        "number": "403"
+    },
+    {
+        "dept": "ANTH",
+        "number": "404"
+    },
+    {
+        "dept": "ANTH",
+        "number": "417"
+    },
+    {
+        "dept": "ANTH",
+        "number": "421"
+    },
+    {
+        "dept": "ANTH",
+        "number": "424"
+    },
+    {
+        "dept": "ANTH",
+        "number": "434"
+    },
+    {
+        "dept": "ANTH",
+        "number": "436"
+    },
+    {
+        "dept": "ANTH",
+        "number": "438"
+    },
+    {
+        "dept": "ANTH",
+        "number": "444"
+    },
+    {
+        "dept": "ARAB",
+        "number": "101"
+    },
+    {
+        "dept": "ARAB",
+        "number": "102"
+    },
+    {
+        "dept": "ARAB",
+        "number": "104"
+    },
+    {
+        "dept": "ARAB",
+        "number": "201"
+    },
+    {
+        "dept": "ARAB",
+        "number": "202"
+    },
+    {
+        "dept": "ARAB",
+        "number": "204"
+    },
+    {
+        "dept": "ARAB",
+        "number": "301"
+    },
+    {
+        "dept": "ARCH",
+        "number": "105"
+    },
+    {
+        "dept": "ARCH",
+        "number": "106"
+    },
+    {
+        "dept": "ARCH",
+        "number": "205"
+    },
+    {
+        "dept": "ARCH",
+        "number": "216"
+    },
+    {
+        "dept": "ARCH",
+        "number": "221"
+    },
+    {
+        "dept": "ARCH",
+        "number": "246"
+    },
+    {
+        "dept": "ARCH",
+        "number": "249"
+    },
+    {
+        "dept": "ARCH",
+        "number": "250"
+    },
+    {
+        "dept": "ARCH",
+        "number": "305"
+    },
+    {
+        "dept": "ARCH",
+        "number": "331"
+    },
+    {
+        "dept": "ARCH",
+        "number": "335"
+    },
+    {
+        "dept": "ARCH",
+        "number": "346"
+    },
+    {
+        "dept": "ARCH",
+        "number": "347"
+    },
+    {
+        "dept": "ARCH",
+        "number": "350"
+    },
+    {
+        "dept": "ARCH",
+        "number": "405"
+    },
+    {
+        "dept": "ARCH",
+        "number": "431"
+    },
+    {
+        "dept": "ARCH",
+        "number": "435"
+    },
+    {
+        "dept": "ARCH",
+        "number": "494"
+    },
+    {
+        "dept": "AREN",
+        "number": "200"
+    },
+    {
+        "dept": "AREN",
+        "number": "221"
+    },
+    {
+        "dept": "AREN",
+        "number": "300"
+    },
+    {
+        "dept": "AREN",
+        "number": "310"
+    },
+    {
+        "dept": "AREN",
+        "number": "311"
+    },
+    {
+        "dept": "AREN",
+        "number": "330"
+    },
+    {
+        "dept": "AREN",
+        "number": "401"
+    },
+    {
+        "dept": "ARSC",
+        "number": "104"
+    },
+    {
+        "dept": "ARSC",
+        "number": "105"
+    },
+    {
+        "dept": "ARSC",
+        "number": "202"
+    },
+    {
+        "dept": "ARTS",
+        "number": "103"
+    },
+    {
+        "dept": "ARTS",
+        "number": "104"
+    },
+    {
+        "dept": "ARTS",
+        "number": "111"
+    },
+    {
+        "dept": "ARTS",
+        "number": "115"
+    },
+    {
+        "dept": "ARTS",
+        "number": "149"
+    },
+    {
+        "dept": "ARTS",
+        "number": "150"
+    },
+    {
+        "dept": "ARTS",
+        "number": "210"
+    },
+    {
+        "dept": "ARTS",
+        "number": "212"
+    },
+    {
+        "dept": "ARTS",
+        "number": "231"
+    },
+    {
+        "dept": "ARTS",
+        "number": "255"
+    },
+    {
+        "dept": "ARTS",
+        "number": "303"
+    },
+    {
+        "dept": "ARTS",
+        "number": "304"
+    },
+    {
+        "dept": "ARTS",
+        "number": "305"
+    },
+    {
+        "dept": "ARTS",
+        "number": "311"
+    },
+    {
+        "dept": "ARTS",
+        "number": "349"
+    },
+    {
+        "dept": "ASIA",
+        "number": "229"
+    },
+    {
+        "dept": "ASIA",
+        "number": "349"
+    },
+    {
+        "dept": "ASIA",
+        "number": "350"
+    },
+    {
+        "dept": "ASIA",
+        "number": "352"
+    },
+    {
+        "dept": "ASIA",
+        "number": "354"
+    },
+    {
+        "dept": "ASIA",
+        "number": "355"
+    },
+    {
+        "dept": "ASIA",
+        "number": "356"
+    },
+    {
+        "dept": "ASIA",
+        "number": "358"
+    },
+    {
+        "dept": "ASIA",
+        "number": "401"
+    },
+    {
+        "dept": "ASIA",
+        "number": "463"
+    },
+    {
+        "dept": "ASTR",
+        "number": "101"
+    },
+    {
+        "dept": "ASTR",
+        "number": "109"
+    },
+    {
+        "dept": "ASTR",
+        "number": "111"
+    },
+    {
+        "dept": "ASTR",
+        "number": "119"
+    },
+    {
+        "dept": "ASTR",
+        "number": "314"
+    },
+    {
+        "dept": "ASTR",
+        "number": "320"
+    },
+    {
+        "dept": "ATMO",
+        "number": "110"
+    },
+    {
+        "dept": "ATMO",
+        "number": "201"
+    },
+    {
+        "dept": "ATMO",
+        "number": "203"
+    },
+    {
+        "dept": "ATMO",
+        "number": "210"
+    },
+    {
+        "dept": "ATMO",
+        "number": "251"
+    },
+    {
+        "dept": "ATMO",
+        "number": "321"
+    },
+    {
+        "dept": "ATMO",
+        "number": "324"
+    },
+    {
+        "dept": "ATMO",
+        "number": "335"
+    },
+    {
+        "dept": "ATMO",
+        "number": "336"
+    },
+    {
+        "dept": "ATMO",
+        "number": "352"
+    },
+    {
+        "dept": "ATMO",
+        "number": "435"
+    },
+    {
+        "dept": "ATMO",
+        "number": "446"
+    },
+    {
+        "dept": "ATTR",
+        "number": "201"
+    },
+    {
+        "dept": "ATTR",
+        "number": "202"
+    },
+    {
+        "dept": "ATTR",
+        "number": "301"
+    },
+    {
+        "dept": "BAEN",
+        "number": "302"
+    },
+    {
+        "dept": "BAEN",
+        "number": "320"
+    },
+    {
+        "dept": "BAEN",
+        "number": "340"
+    },
+    {
+        "dept": "BAEN",
+        "number": "354"
+    },
+    {
+        "dept": "BAEN",
+        "number": "365"
+    },
+    {
+        "dept": "BAEN",
+        "number": "366"
+    },
+    {
+        "dept": "BAEN",
+        "number": "370"
+    },
+    {
+        "dept": "BAEN",
+        "number": "375"
+    },
+    {
+        "dept": "BAEN",
+        "number": "422"
+    },
+    {
+        "dept": "BAEN",
+        "number": "471"
+    },
+    {
+        "dept": "BAEN",
+        "number": "477"
+    },
+    {
+        "dept": "BAEN",
+        "number": "479"
+    },
+    {
+        "dept": "BAEN",
+        "number": "480"
+    },
+    {
+        "dept": "BAEN",
+        "number": "651"
+    },
+    {
+        "dept": "BEFB",
+        "number": "425"
+    },
+    {
+        "dept": "BEFB",
+        "number": "426"
+    },
+    {
+        "dept": "BEFB",
+        "number": "470"
+    },
+    {
+        "dept": "BEFB",
+        "number": "472"
+    },
+    {
+        "dept": "BEFB",
+        "number": "474"
+    },
+    {
+        "dept": "BEFB",
+        "number": "476"
+    },
+    {
+        "dept": "BESC",
+        "number": "201"
+    },
+    {
+        "dept": "BESC",
+        "number": "367"
+    },
+    {
+        "dept": "BICH",
+        "number": "101"
+    },
+    {
+        "dept": "BICH",
+        "number": "102"
+    },
+    {
+        "dept": "BICH",
+        "number": "201"
+    },
+    {
+        "dept": "BICH",
+        "number": "202"
+    },
+    {
+        "dept": "BICH",
+        "number": "303"
+    },
+    {
+        "dept": "BICH",
+        "number": "404"
+    },
+    {
+        "dept": "BICH",
+        "number": "409"
+    },
+    {
+        "dept": "BICH",
+        "number": "410"
+    },
+    {
+        "dept": "BICH",
+        "number": "411"
+    },
+    {
+        "dept": "BICH",
+        "number": "416"
+    },
+    {
+        "dept": "BICH",
+        "number": "419"
+    },
+    {
+        "dept": "BICH",
+        "number": "420"
+    },
+    {
+        "dept": "BICH",
+        "number": "431"
+    },
+    {
+        "dept": "BICH",
+        "number": "432"
+    },
+    {
+        "dept": "BICH",
+        "number": "440"
+    },
+    {
+        "dept": "BICH",
+        "number": "441"
+    },
+    {
+        "dept": "BICH",
+        "number": "450"
+    },
+    {
+        "dept": "BICH",
+        "number": "464"
+    },
+    {
+        "dept": "BICH",
+        "number": "491"
+    },
+    {
+        "dept": "BIMS",
+        "number": "101"
+    },
+    {
+        "dept": "BIMS",
+        "number": "110"
+    },
+    {
+        "dept": "BIMS",
+        "number": "320"
+    },
+    {
+        "dept": "BIMS",
+        "number": "402"
+    },
+    {
+        "dept": "BIMS",
+        "number": "405"
+    },
+    {
+        "dept": "BIMS",
+        "number": "421"
+    },
+    {
+        "dept": "BIMS",
+        "number": "491"
+    },
+    {
+        "dept": "BIOL",
+        "number": "101"
+    },
+    {
+        "dept": "BIOL",
+        "number": "104"
+    },
+    {
+        "dept": "BIOL",
+        "number": "107"
+    },
+    {
+        "dept": "BIOL",
+        "number": "111"
+    },
+    {
+        "dept": "BIOL",
+        "number": "112"
+    },
+    {
+        "dept": "BIOL",
+        "number": "113"
+    },
+    {
+        "dept": "BIOL",
+        "number": "206"
+    },
+    {
+        "dept": "BIOL",
+        "number": "213"
+    },
+    {
+        "dept": "BIOL",
+        "number": "214"
+    },
+    {
+        "dept": "BIOL",
+        "number": "318"
+    },
+    {
+        "dept": "BIOL",
+        "number": "319"
+    },
+    {
+        "dept": "BIOL",
+        "number": "320"
+    },
+    {
+        "dept": "BIOL",
+        "number": "351"
+    },
+    {
+        "dept": "BIOL",
+        "number": "357"
+    },
+    {
+        "dept": "BIOL",
+        "number": "388"
+    },
+    {
+        "dept": "BIOL",
+        "number": "400"
+    },
+    {
+        "dept": "BIOL",
+        "number": "401"
+    },
+    {
+        "dept": "BIOL",
+        "number": "402"
+    },
+    {
+        "dept": "BIOL",
+        "number": "403"
+    },
+    {
+        "dept": "BIOL",
+        "number": "405"
+    },
+    {
+        "dept": "BIOL",
+        "number": "406"
+    },
+    {
+        "dept": "BIOL",
+        "number": "413"
+    },
+    {
+        "dept": "BIOL",
+        "number": "428"
+    },
+    {
+        "dept": "BIOL",
+        "number": "434"
+    },
+    {
+        "dept": "BIOL",
+        "number": "444"
+    },
+    {
+        "dept": "BIOL",
+        "number": "450"
+    },
+    {
+        "dept": "BIOL",
+        "number": "454"
+    },
+    {
+        "dept": "BIOL",
+        "number": "456"
+    },
+    {
+        "dept": "BIOL",
+        "number": "466"
+    },
+    {
+        "dept": "BIOL",
+        "number": "491"
+    },
+    {
+        "dept": "BMEN",
+        "number": "207"
+    },
+    {
+        "dept": "BMEN",
+        "number": "211"
+    },
+    {
+        "dept": "BMEN",
+        "number": "250"
+    },
+    {
+        "dept": "BMEN",
+        "number": "253"
+    },
+    {
+        "dept": "BMEN",
+        "number": "254"
+    },
+    {
+        "dept": "BMEN",
+        "number": "311"
+    },
+    {
+        "dept": "BMEN",
+        "number": "321"
+    },
+    {
+        "dept": "BMEN",
+        "number": "341"
+    },
+    {
+        "dept": "BMEN",
+        "number": "343"
+    },
+    {
+        "dept": "BMEN",
+        "number": "344"
+    },
+    {
+        "dept": "BMEN",
+        "number": "353"
+    },
+    {
+        "dept": "BMEN",
+        "number": "354"
+    },
+    {
+        "dept": "BMEN",
+        "number": "361"
+    },
+    {
+        "dept": "BMEN",
+        "number": "400"
+    },
+    {
+        "dept": "BMEN",
+        "number": "420"
+    },
+    {
+        "dept": "BMEN",
+        "number": "428"
+    },
+    {
+        "dept": "BMEN",
+        "number": "431"
+    },
+    {
+        "dept": "BMEN",
+        "number": "453"
+    },
+    {
+        "dept": "BMEN",
+        "number": "480"
+    },
+    {
+        "dept": "BMEN",
+        "number": "485"
+    },
+    {
+        "dept": "BUSN",
+        "number": "101"
+    },
+    {
+        "dept": "BUSN",
+        "number": "125"
+    },
+    {
+        "dept": "BUSN",
+        "number": "203"
+    },
+    {
+        "dept": "BUSN",
+        "number": "204"
+    },
+    {
+        "dept": "BUSN",
+        "number": "225"
+    },
+    {
+        "dept": "BUSN",
+        "number": "450"
+    },
+    {
+        "dept": "CARC",
+        "number": "301"
+    },
+    {
+        "dept": "CARC",
+        "number": "481"
+    },
+    {
+        "dept": "CHEM",
+        "number": "105"
+    },
+    {
+        "dept": "CHEM",
+        "number": "106"
+    },
+    {
+        "dept": "CHEM",
+        "number": "107"
+    },
+    {
+        "dept": "CHEM",
+        "number": "117"
+    },
+    {
+        "dept": "CHEM",
+        "number": "119"
+    },
+    {
+        "dept": "CHEM",
+        "number": "120"
+    },
+    {
+        "dept": "CHEM",
+        "number": "222"
+    },
+    {
+        "dept": "CHEM",
+        "number": "227"
+    },
+    {
+        "dept": "CHEM",
+        "number": "228"
+    },
+    {
+        "dept": "CHEM",
+        "number": "231"
+    },
+    {
+        "dept": "CHEM",
+        "number": "237"
+    },
+    {
+        "dept": "CHEM",
+        "number": "238"
+    },
+    {
+        "dept": "CHEM",
+        "number": "257"
+    },
+    {
+        "dept": "CHEM",
+        "number": "258"
+    },
+    {
+        "dept": "CHEM",
+        "number": "310"
+    },
+    {
+        "dept": "CHEM",
+        "number": "315"
+    },
+    {
+        "dept": "CHEM",
+        "number": "316"
+    },
+    {
+        "dept": "CHEM",
+        "number": "318"
+    },
+    {
+        "dept": "CHEM",
+        "number": "321"
+    },
+    {
+        "dept": "CHEM",
+        "number": "322"
+    },
+    {
+        "dept": "CHEM",
+        "number": "327"
+    },
+    {
+        "dept": "CHEM",
+        "number": "328"
+    },
+    {
+        "dept": "CHEM",
+        "number": "362"
+    },
+    {
+        "dept": "CHEM",
+        "number": "415"
+    },
+    {
+        "dept": "CHEM",
+        "number": "491"
+    },
+    {
+        "dept": "CHEN",
+        "number": "201"
+    },
+    {
+        "dept": "CHEN",
+        "number": "204"
+    },
+    {
+        "dept": "CHEN",
+        "number": "205"
+    },
+    {
+        "dept": "CHEN",
+        "number": "304"
+    },
+    {
+        "dept": "CHEN",
+        "number": "320"
+    },
+    {
+        "dept": "CHEN",
+        "number": "322"
+    },
+    {
+        "dept": "CHEN",
+        "number": "323"
+    },
+    {
+        "dept": "CHEN",
+        "number": "324"
+    },
+    {
+        "dept": "CHEN",
+        "number": "354"
+    },
+    {
+        "dept": "CHEN",
+        "number": "364"
+    },
+    {
+        "dept": "CHEN",
+        "number": "374"
+    },
+    {
+        "dept": "CHEN",
+        "number": "422"
+    },
+    {
+        "dept": "CHEN",
+        "number": "425"
+    },
+    {
+        "dept": "CHEN",
+        "number": "430"
+    },
+    {
+        "dept": "CHEN",
+        "number": "432"
+    },
+    {
+        "dept": "CHEN",
+        "number": "455"
+    },
+    {
+        "dept": "CHEN",
+        "number": "460"
+    },
+    {
+        "dept": "CHEN",
+        "number": "461"
+    },
+    {
+        "dept": "CHEN",
+        "number": "471"
+    },
+    {
+        "dept": "CHEN",
+        "number": "482"
+    },
+    {
+        "dept": "CHIN",
+        "number": "101"
+    },
+    {
+        "dept": "CHIN",
+        "number": "102"
+    },
+    {
+        "dept": "CHIN",
+        "number": "201"
+    },
+    {
+        "dept": "CHIN",
+        "number": "202"
+    },
+    {
+        "dept": "CHIN",
+        "number": "301"
+    },
+    {
+        "dept": "CHIN",
+        "number": "465"
+    },
+    {
+        "dept": "CLAS",
+        "number": "101"
+    },
+    {
+        "dept": "CLAS",
+        "number": "102"
+    },
+    {
+        "dept": "CLAS",
+        "number": "121"
+    },
+    {
+        "dept": "CLAS",
+        "number": "122"
+    },
+    {
+        "dept": "CLAS",
+        "number": "211"
+    },
+    {
+        "dept": "CLAS",
+        "number": "220"
+    },
+    {
+        "dept": "CLAS",
+        "number": "221"
+    },
+    {
+        "dept": "CLAS",
+        "number": "222"
+    },
+    {
+        "dept": "CLAS",
+        "number": "236"
+    },
+    {
+        "dept": "CLAS",
+        "number": "251"
+    },
+    {
+        "dept": "CLAS",
+        "number": "330"
+    },
+    {
+        "dept": "CLAS",
+        "number": "353"
+    },
+    {
+        "dept": "CLAS",
+        "number": "354"
+    },
+    {
+        "dept": "CLAS",
+        "number": "415"
+    },
+    {
+        "dept": "CLAS",
+        "number": "417"
+    },
+    {
+        "dept": "CLAS",
+        "number": "418"
+    },
+    {
+        "dept": "CLAS",
+        "number": "426"
+    },
+    {
+        "dept": "CLAS",
+        "number": "427"
+    },
+    {
+        "dept": "CLAS",
+        "number": "428"
+    },
+    {
+        "dept": "CLAS",
+        "number": "429"
+    },
+    {
+        "dept": "CLAS",
+        "number": "444"
+    },
+    {
+        "dept": "CLEN",
+        "number": "101"
+    },
+    {
+        "dept": "CLEN",
+        "number": "201"
+    },
+    {
+        "dept": "COMM",
+        "number": "107"
+    },
+    {
+        "dept": "COMM",
+        "number": "203"
+    },
+    {
+        "dept": "COMM",
+        "number": "205"
+    },
+    {
+        "dept": "COMM",
+        "number": "210"
+    },
+    {
+        "dept": "COMM",
+        "number": "215"
+    },
+    {
+        "dept": "COMM",
+        "number": "230"
+    },
+    {
+        "dept": "COMM",
+        "number": "243"
+    },
+    {
+        "dept": "COMM",
+        "number": "248"
+    },
+    {
+        "dept": "COMM",
+        "number": "250"
+    },
+    {
+        "dept": "COMM",
+        "number": "255"
+    },
+    {
+        "dept": "COMM",
+        "number": "257"
+    },
+    {
+        "dept": "COMM",
+        "number": "275"
+    },
+    {
+        "dept": "COMM",
+        "number": "302"
+    },
+    {
+        "dept": "COMM",
+        "number": "303"
+    },
+    {
+        "dept": "COMM",
+        "number": "304"
+    },
+    {
+        "dept": "COMM",
+        "number": "307"
+    },
+    {
+        "dept": "COMM",
+        "number": "308"
+    },
+    {
+        "dept": "COMM",
+        "number": "316"
+    },
+    {
+        "dept": "COMM",
+        "number": "317"
+    },
+    {
+        "dept": "COMM",
+        "number": "322"
+    },
+    {
+        "dept": "COMM",
+        "number": "323"
+    },
+    {
+        "dept": "COMM",
+        "number": "338"
+    },
+    {
+        "dept": "COMM",
+        "number": "342"
+    },
+    {
+        "dept": "COMM",
+        "number": "345"
+    },
+    {
+        "dept": "COMM",
+        "number": "346"
+    },
+    {
+        "dept": "COMM",
+        "number": "365"
+    },
+    {
+        "dept": "COMM",
+        "number": "407"
+    },
+    {
+        "dept": "COMM",
+        "number": "411"
+    },
+    {
+        "dept": "COMM",
+        "number": "420"
+    },
+    {
+        "dept": "COMM",
+        "number": "423"
+    },
+    {
+        "dept": "COMM",
+        "number": "425"
+    },
+    {
+        "dept": "COMM",
+        "number": "428"
+    },
+    {
+        "dept": "COMM",
+        "number": "435"
+    },
+    {
+        "dept": "COMM",
+        "number": "458"
+    },
+    {
+        "dept": "COMM",
+        "number": "480"
+    },
+    {
+        "dept": "COSC",
+        "number": "175"
+    },
+    {
+        "dept": "COSC",
+        "number": "214"
+    },
+    {
+        "dept": "COSC",
+        "number": "222"
+    },
+    {
+        "dept": "COSC",
+        "number": "253"
+    },
+    {
+        "dept": "COSC",
+        "number": "275"
+    },
+    {
+        "dept": "COSC",
+        "number": "284"
+    },
+    {
+        "dept": "COSC",
+        "number": "310"
+    },
+    {
+        "dept": "COSC",
+        "number": "321"
+    },
+    {
+        "dept": "COSC",
+        "number": "325"
+    },
+    {
+        "dept": "COSC",
+        "number": "333"
+    },
+    {
+        "dept": "COSC",
+        "number": "353"
+    },
+    {
+        "dept": "COSC",
+        "number": "375"
+    },
+    {
+        "dept": "COSC",
+        "number": "410"
+    },
+    {
+        "dept": "COSC",
+        "number": "463"
+    },
+    {
+        "dept": "COSC",
+        "number": "475"
+    },
+    {
+        "dept": "COSC",
+        "number": "494"
+    },
+    {
+        "dept": "CPSY",
+        "number": "631"
+    },
+    {
+        "dept": "CPSY",
+        "number": "678"
+    },
+    {
+        "dept": "CSCE",
+        "number": "110"
+    },
+    {
+        "dept": "CSCE",
+        "number": "111"
+    },
+    {
+        "dept": "CSCE",
+        "number": "120"
+    },
+    {
+        "dept": "CSCE",
+        "number": "121"
+    },
+    {
+        "dept": "CSCE",
+        "number": "201"
+    },
+    {
+        "dept": "CSCE",
+        "number": "206"
+    },
+    {
+        "dept": "CSCE",
+        "number": "221"
+    },
+    {
+        "dept": "CSCE",
+        "number": "222"
+    },
+    {
+        "dept": "CSCE",
+        "number": "305"
+    },
+    {
+        "dept": "CSCE",
+        "number": "310"
+    },
+    {
+        "dept": "CSCE",
+        "number": "312"
+    },
+    {
+        "dept": "CSCE",
+        "number": "313"
+    },
+    {
+        "dept": "CSCE",
+        "number": "314"
+    },
+    {
+        "dept": "CSCE",
+        "number": "315"
+    },
+    {
+        "dept": "CSCE",
+        "number": "320"
+    },
+    {
+        "dept": "CSCE",
+        "number": "331"
+    },
+    {
+        "dept": "CSCE",
+        "number": "350"
+    },
+    {
+        "dept": "CSCE",
+        "number": "402"
+    },
+    {
+        "dept": "CSCE",
+        "number": "411"
+    },
+    {
+        "dept": "CSCE",
+        "number": "421"
+    },
+    {
+        "dept": "CSCE",
+        "number": "441"
+    },
+    {
+        "dept": "CSCE",
+        "number": "443"
+    },
+    {
+        "dept": "CSCE",
+        "number": "446"
+    },
+    {
+        "dept": "CSCE",
+        "number": "447"
+    },
+    {
+        "dept": "CSCE",
+        "number": "461"
+    },
+    {
+        "dept": "CSCE",
+        "number": "462"
+    },
+    {
+        "dept": "CSCE",
+        "number": "477"
+    },
+    {
+        "dept": "CULN",
+        "number": "305"
+    },
+    {
+        "dept": "CVEN",
+        "number": "207"
+    },
+    {
+        "dept": "CVEN",
+        "number": "221"
+    },
+    {
+        "dept": "CVEN",
+        "number": "250"
+    },
+    {
+        "dept": "CVEN",
+        "number": "301"
+    },
+    {
+        "dept": "CVEN",
+        "number": "302"
+    },
+    {
+        "dept": "CVEN",
+        "number": "303"
+    },
+    {
+        "dept": "CVEN",
+        "number": "304"
+    },
+    {
+        "dept": "CVEN",
+        "number": "305"
+    },
+    {
+        "dept": "CVEN",
+        "number": "306"
+    },
+    {
+        "dept": "CVEN",
+        "number": "307"
+    },
+    {
+        "dept": "CVEN",
+        "number": "311"
+    },
+    {
+        "dept": "CVEN",
+        "number": "322"
+    },
+    {
+        "dept": "CVEN",
+        "number": "336"
+    },
+    {
+        "dept": "CVEN",
+        "number": "339"
+    },
+    {
+        "dept": "CVEN",
+        "number": "342"
+    },
+    {
+        "dept": "CVEN",
+        "number": "343"
+    },
+    {
+        "dept": "CVEN",
+        "number": "345"
+    },
+    {
+        "dept": "CVEN",
+        "number": "349"
+    },
+    {
+        "dept": "CVEN",
+        "number": "363"
+    },
+    {
+        "dept": "CVEN",
+        "number": "365"
+    },
+    {
+        "dept": "CVEN",
+        "number": "399"
+    },
+    {
+        "dept": "CVEN",
+        "number": "402"
+    },
+    {
+        "dept": "CVEN",
+        "number": "413"
+    },
+    {
+        "dept": "CVEN",
+        "number": "418"
+    },
+    {
+        "dept": "CVEN",
+        "number": "435"
+    },
+    {
+        "dept": "CVEN",
+        "number": "444"
+    },
+    {
+        "dept": "CVEN",
+        "number": "446"
+    },
+    {
+        "dept": "CVEN",
+        "number": "455"
+    },
+    {
+        "dept": "CVEN",
+        "number": "457"
+    },
+    {
+        "dept": "CVEN",
+        "number": "458"
+    },
+    {
+        "dept": "CVEN",
+        "number": "462"
+    },
+    {
+        "dept": "CVEN",
+        "number": "463"
+    },
+    {
+        "dept": "CVEN",
+        "number": "465"
+    },
+    {
+        "dept": "CVEN",
+        "number": "473"
+    },
+    {
+        "dept": "CYBR",
+        "number": "201"
+    },
+    {
+        "dept": "CYBR",
+        "number": "402"
+    },
+    {
+        "dept": "CYBR",
+        "number": "403"
+    },
+    {
+        "dept": "CYBR",
+        "number": "405"
+    },
+    {
+        "dept": "DAEN",
+        "number": "210"
+    },
+    {
+        "dept": "DAEN",
+        "number": "300"
+    },
+    {
+        "dept": "DAEN",
+        "number": "301"
+    },
+    {
+        "dept": "DAEN",
+        "number": "321"
+    },
+    {
+        "dept": "DAEN",
+        "number": "323"
+    },
+    {
+        "dept": "DAEN",
+        "number": "328"
+    },
+    {
+        "dept": "DAEN",
+        "number": "331"
+    },
+    {
+        "dept": "DAEN",
+        "number": "400"
+    },
+    {
+        "dept": "DAEN",
+        "number": "427"
+    },
+    {
+        "dept": "DAEN",
+        "number": "429"
+    },
+    {
+        "dept": "DAEN",
+        "number": "459"
+    },
+    {
+        "dept": "DCED",
+        "number": "205"
+    },
+    {
+        "dept": "DCED",
+        "number": "215"
+    },
+    {
+        "dept": "DCED",
+        "number": "216"
+    },
+    {
+        "dept": "DCED",
+        "number": "222"
+    },
+    {
+        "dept": "DCED",
+        "number": "240"
+    },
+    {
+        "dept": "DCED",
+        "number": "242"
+    },
+    {
+        "dept": "DCED",
+        "number": "260"
+    },
+    {
+        "dept": "DCED",
+        "number": "261"
+    },
+    {
+        "dept": "DCED",
+        "number": "286"
+    },
+    {
+        "dept": "DCED",
+        "number": "297"
+    },
+    {
+        "dept": "DCED",
+        "number": "304"
+    },
+    {
+        "dept": "DCED",
+        "number": "306"
+    },
+    {
+        "dept": "DCED",
+        "number": "315"
+    },
+    {
+        "dept": "DCED",
+        "number": "320"
+    },
+    {
+        "dept": "DCED",
+        "number": "361"
+    },
+    {
+        "dept": "DCED",
+        "number": "362"
+    },
+    {
+        "dept": "DCED",
+        "number": "372"
+    },
+    {
+        "dept": "DCED",
+        "number": "387"
+    },
+    {
+        "dept": "DCED",
+        "number": "400"
+    },
+    {
+        "dept": "DCED",
+        "number": "401"
+    },
+    {
+        "dept": "DCED",
+        "number": "411"
+    },
+    {
+        "dept": "DCED",
+        "number": "413"
+    },
+    {
+        "dept": "DCED",
+        "number": "462"
+    },
+    {
+        "dept": "DCED",
+        "number": "463"
+    },
+    {
+        "dept": "DHUM",
+        "number": "433"
+    },
+    {
+        "dept": "ECCB",
+        "number": "101"
+    },
+    {
+        "dept": "ECCB",
+        "number": "205"
+    },
+    {
+        "dept": "ECCB",
+        "number": "215"
+    },
+    {
+        "dept": "ECCB",
+        "number": "300"
+    },
+    {
+        "dept": "ECCB",
+        "number": "302"
+    },
+    {
+        "dept": "ECCB",
+        "number": "309"
+    },
+    {
+        "dept": "ECCB",
+        "number": "311"
+    },
+    {
+        "dept": "ECCB",
+        "number": "315"
+    },
+    {
+        "dept": "ECCB",
+        "number": "320"
+    },
+    {
+        "dept": "ECCB",
+        "number": "351"
+    },
+    {
+        "dept": "ECCB",
+        "number": "401"
+    },
+    {
+        "dept": "ECCB",
+        "number": "402"
+    },
+    {
+        "dept": "ECCB",
+        "number": "403"
+    },
+    {
+        "dept": "ECCB",
+        "number": "406"
+    },
+    {
+        "dept": "ECCB",
+        "number": "444"
+    },
+    {
+        "dept": "ECCB",
+        "number": "450"
+    },
+    {
+        "dept": "ECCB",
+        "number": "451"
+    },
+    {
+        "dept": "ECCB",
+        "number": "452"
+    },
+    {
+        "dept": "ECCB",
+        "number": "460"
+    },
+    {
+        "dept": "ECCB",
+        "number": "651"
+    },
+    {
+        "dept": "ECEN",
+        "number": "214"
+    },
+    {
+        "dept": "ECEN",
+        "number": "215"
+    },
+    {
+        "dept": "ECEN",
+        "number": "222"
+    },
+    {
+        "dept": "ECEN",
+        "number": "248"
+    },
+    {
+        "dept": "ECEN",
+        "number": "303"
+    },
+    {
+        "dept": "ECEN",
+        "number": "314"
+    },
+    {
+        "dept": "ECEN",
+        "number": "322"
+    },
+    {
+        "dept": "ECEN",
+        "number": "325"
+    },
+    {
+        "dept": "ECEN",
+        "number": "350"
+    },
+    {
+        "dept": "ECEN",
+        "number": "360"
+    },
+    {
+        "dept": "ECEN",
+        "number": "370"
+    },
+    {
+        "dept": "ECEN",
+        "number": "416"
+    },
+    {
+        "dept": "ECEN",
+        "number": "426"
+    },
+    {
+        "dept": "ECEN",
+        "number": "427"
+    },
+    {
+        "dept": "ECEN",
+        "number": "449"
+    },
+    {
+        "dept": "ECEN",
+        "number": "466"
+    },
+    {
+        "dept": "ECEN",
+        "number": "469"
+    },
+    {
+        "dept": "ECFB",
+        "number": "321"
+    },
+    {
+        "dept": "ECFB",
+        "number": "421"
+    },
+    {
+        "dept": "ECFB",
+        "number": "422"
+    },
+    {
+        "dept": "ECMT",
+        "number": "461"
+    },
+    {
+        "dept": "ECMT",
+        "number": "463"
+    },
+    {
+        "dept": "ECON",
+        "number": "202"
+    },
+    {
+        "dept": "ECON",
+        "number": "203"
+    },
+    {
+        "dept": "ECON",
+        "number": "318"
+    },
+    {
+        "dept": "ECON",
+        "number": "323"
+    },
+    {
+        "dept": "ECON",
+        "number": "410"
+    },
+    {
+        "dept": "EDCI",
+        "number": "353"
+    },
+    {
+        "dept": "EDCI",
+        "number": "354"
+    },
+    {
+        "dept": "EDCI",
+        "number": "364"
+    },
+    {
+        "dept": "EHRD",
+        "number": "101"
+    },
+    {
+        "dept": "EHRD",
+        "number": "203"
+    },
+    {
+        "dept": "EHRD",
+        "number": "210"
+    },
+    {
+        "dept": "EHRD",
+        "number": "315"
+    },
+    {
+        "dept": "EHRD",
+        "number": "371"
+    },
+    {
+        "dept": "EHRD",
+        "number": "391"
+    },
+    {
+        "dept": "EHRD",
+        "number": "481"
+    },
+    {
+        "dept": "EHRD",
+        "number": "490"
+    },
+    {
+        "dept": "ENGL",
+        "number": "103"
+    },
+    {
+        "dept": "ENGL",
+        "number": "104"
+    },
+    {
+        "dept": "ENGL",
+        "number": "107"
+    },
+    {
+        "dept": "ENGL",
+        "number": "203"
+    },
+    {
+        "dept": "ENGL",
+        "number": "204"
+    },
+    {
+        "dept": "ENGL",
+        "number": "205"
+    },
+    {
+        "dept": "ENGL",
+        "number": "209"
+    },
+    {
+        "dept": "ENGL",
+        "number": "210"
+    },
+    {
+        "dept": "ENGL",
+        "number": "211"
+    },
+    {
+        "dept": "ENGL",
+        "number": "221"
+    },
+    {
+        "dept": "ENGL",
+        "number": "222"
+    },
+    {
+        "dept": "ENGL",
+        "number": "229"
+    },
+    {
+        "dept": "ENGL",
+        "number": "235"
+    },
+    {
+        "dept": "ENGL",
+        "number": "251"
+    },
+    {
+        "dept": "ENGL",
+        "number": "262"
+    },
+    {
+        "dept": "ENGL",
+        "number": "292"
+    },
+    {
+        "dept": "ENGL",
+        "number": "303"
+    },
+    {
+        "dept": "ENGL",
+        "number": "309"
+    },
+    {
+        "dept": "ENGL",
+        "number": "310"
+    },
+    {
+        "dept": "ENGL",
+        "number": "324"
+    },
+    {
+        "dept": "ENGL",
+        "number": "329"
+    },
+    {
+        "dept": "ENGL",
+        "number": "333"
+    },
+    {
+        "dept": "ENGL",
+        "number": "339"
+    },
+    {
+        "dept": "ENGL",
+        "number": "342"
+    },
+    {
+        "dept": "ENGL",
+        "number": "351"
+    },
+    {
+        "dept": "ENGL",
+        "number": "356"
+    },
+    {
+        "dept": "ENGL",
+        "number": "358"
+    },
+    {
+        "dept": "ENGL",
+        "number": "362"
+    },
+    {
+        "dept": "ENGL",
+        "number": "365"
+    },
+    {
+        "dept": "ENGL",
+        "number": "366"
+    },
+    {
+        "dept": "ENGL",
+        "number": "369"
+    },
+    {
+        "dept": "ENGL",
+        "number": "374"
+    },
+    {
+        "dept": "ENGL",
+        "number": "379"
+    },
+    {
+        "dept": "ENGL",
+        "number": "392"
+    },
+    {
+        "dept": "ENGL",
+        "number": "393"
+    },
+    {
+        "dept": "ENGL",
+        "number": "395"
+    },
+    {
+        "dept": "ENGL",
+        "number": "403"
+    },
+    {
+        "dept": "ENGL",
+        "number": "433"
+    },
+    {
+        "dept": "ENGL",
+        "number": "467"
+    },
+    {
+        "dept": "ENGL",
+        "number": "474"
+    },
+    {
+        "dept": "ENGL",
+        "number": "482"
+    },
+    {
+        "dept": "ENGR",
+        "number": "102"
+    },
+    {
+        "dept": "ENGR",
+        "number": "112"
+    },
+    {
+        "dept": "ENGR",
+        "number": "216"
+    },
+    {
+        "dept": "ENGR",
+        "number": "217"
+    },
+    {
+        "dept": "ENGR",
+        "number": "251"
+    },
+    {
+        "dept": "ENGR",
+        "number": "350"
+    },
+    {
+        "dept": "ENGR",
+        "number": "351"
+    },
+    {
+        "dept": "ENGR",
+        "number": "401"
+    },
+    {
+        "dept": "ENGR",
+        "number": "450"
+    },
+    {
+        "dept": "ENSS",
+        "number": "105"
+    },
+    {
+        "dept": "ENTC",
+        "number": "399"
+    },
+    {
+        "dept": "ENTO",
+        "number": "101"
+    },
+    {
+        "dept": "ENTO",
+        "number": "201"
+    },
+    {
+        "dept": "ENTO",
+        "number": "208"
+    },
+    {
+        "dept": "ENTO",
+        "number": "209"
+    },
+    {
+        "dept": "ENTO",
+        "number": "300"
+    },
+    {
+        "dept": "ENTO",
+        "number": "320"
+    },
+    {
+        "dept": "ENTO",
+        "number": "423"
+    },
+    {
+        "dept": "ENTO",
+        "number": "426"
+    },
+    {
+        "dept": "ENTO",
+        "number": "427"
+    },
+    {
+        "dept": "ENTO",
+        "number": "428"
+    },
+    {
+        "dept": "ENTO",
+        "number": "429"
+    },
+    {
+        "dept": "ENTO",
+        "number": "431"
+    },
+    {
+        "dept": "ENTO",
+        "number": "432"
+    },
+    {
+        "dept": "ENTO",
+        "number": "450"
+    },
+    {
+        "dept": "ENTO",
+        "number": "451"
+    },
+    {
+        "dept": "ENTO",
+        "number": "482"
+    },
+    {
+        "dept": "EPSY",
+        "number": "685"
+    },
+    {
+        "dept": "EPSY",
+        "number": "691"
+    },
+    {
+        "dept": "ESET",
+        "number": "210"
+    },
+    {
+        "dept": "ESET",
+        "number": "211"
+    },
+    {
+        "dept": "ESET",
+        "number": "219"
+    },
+    {
+        "dept": "ESET",
+        "number": "269"
+    },
+    {
+        "dept": "ESET",
+        "number": "300"
+    },
+    {
+        "dept": "ESET",
+        "number": "315"
+    },
+    {
+        "dept": "ESET",
+        "number": "319"
+    },
+    {
+        "dept": "ESET",
+        "number": "333"
+    },
+    {
+        "dept": "ESET",
+        "number": "349"
+    },
+    {
+        "dept": "ESET",
+        "number": "350"
+    },
+    {
+        "dept": "ESET",
+        "number": "352"
+    },
+    {
+        "dept": "ESET",
+        "number": "355"
+    },
+    {
+        "dept": "ESET",
+        "number": "359"
+    },
+    {
+        "dept": "ESET",
+        "number": "369"
+    },
+    {
+        "dept": "ESET",
+        "number": "415"
+    },
+    {
+        "dept": "ESET",
+        "number": "419"
+    },
+    {
+        "dept": "ESET",
+        "number": "420"
+    },
+    {
+        "dept": "ESET",
+        "number": "455"
+    },
+    {
+        "dept": "ESET",
+        "number": "462"
+    },
+    {
+        "dept": "EURO",
+        "number": "405"
+    },
+    {
+        "dept": "EURO",
+        "number": "441"
+    },
+    {
+        "dept": "EURO",
+        "number": "442"
+    },
+    {
+        "dept": "EURO",
+        "number": "443"
+    },
+    {
+        "dept": "EURO",
+        "number": "444"
+    },
+    {
+        "dept": "EURO",
+        "number": "446"
+    },
+    {
+        "dept": "EURO",
+        "number": "447"
+    },
+    {
+        "dept": "EVEN",
+        "number": "301"
+    },
+    {
+        "dept": "EVEN",
+        "number": "304"
+    },
+    {
+        "dept": "EVEN",
+        "number": "311"
+    },
+    {
+        "dept": "EVEN",
+        "number": "320"
+    },
+    {
+        "dept": "EVEN",
+        "number": "339"
+    },
+    {
+        "dept": "EVEN",
+        "number": "400"
+    },
+    {
+        "dept": "EVEN",
+        "number": "401"
+    },
+    {
+        "dept": "EVEN",
+        "number": "402"
+    },
+    {
+        "dept": "EVEN",
+        "number": "406"
+    },
+    {
+        "dept": "EVEN",
+        "number": "413"
+    },
+    {
+        "dept": "EVEN",
+        "number": "458"
+    },
+    {
+        "dept": "EVEN",
+        "number": "462"
+    },
+    {
+        "dept": "EVEN",
+        "number": "463"
+    },
+    {
+        "dept": "FILM",
+        "number": "101"
+    },
+    {
+        "dept": "FILM",
+        "number": "215"
+    },
+    {
+        "dept": "FILM",
+        "number": "245"
+    },
+    {
+        "dept": "FILM",
+        "number": "251"
+    },
+    {
+        "dept": "FILM",
+        "number": "299"
+    },
+    {
+        "dept": "FILM",
+        "number": "315"
+    },
+    {
+        "dept": "FILM",
+        "number": "324"
+    },
+    {
+        "dept": "FILM",
+        "number": "333"
+    },
+    {
+        "dept": "FILM",
+        "number": "343"
+    },
+    {
+        "dept": "FILM",
+        "number": "345"
+    },
+    {
+        "dept": "FILM",
+        "number": "351"
+    },
+    {
+        "dept": "FILM",
+        "number": "352"
+    },
+    {
+        "dept": "FILM",
+        "number": "356"
+    },
+    {
+        "dept": "FILM",
+        "number": "358"
+    },
+    {
+        "dept": "FILM",
+        "number": "366"
+    },
+    {
+        "dept": "FILM",
+        "number": "376"
+    },
+    {
+        "dept": "FILM",
+        "number": "398"
+    },
+    {
+        "dept": "FILM",
+        "number": "399"
+    },
+    {
+        "dept": "FILM",
+        "number": "405"
+    },
+    {
+        "dept": "FILM",
+        "number": "415"
+    },
+    {
+        "dept": "FILM",
+        "number": "425"
+    },
+    {
+        "dept": "FILM",
+        "number": "434"
+    },
+    {
+        "dept": "FILM",
+        "number": "435"
+    },
+    {
+        "dept": "FILM",
+        "number": "445"
+    },
+    {
+        "dept": "FILM",
+        "number": "455"
+    },
+    {
+        "dept": "FILM",
+        "number": "465"
+    },
+    {
+        "dept": "FILM",
+        "number": "475"
+    },
+    {
+        "dept": "FINC",
+        "number": "210"
+    },
+    {
+        "dept": "FINC",
+        "number": "341"
+    },
+    {
+        "dept": "FINC",
+        "number": "342"
+    },
+    {
+        "dept": "FINC",
+        "number": "351"
+    },
+    {
+        "dept": "FINC",
+        "number": "361"
+    },
+    {
+        "dept": "FINC",
+        "number": "381"
+    },
+    {
+        "dept": "FINC",
+        "number": "409"
+    },
+    {
+        "dept": "FINC",
+        "number": "445"
+    },
+    {
+        "dept": "FINC",
+        "number": "447"
+    },
+    {
+        "dept": "FINP",
+        "number": "435"
+    },
+    {
+        "dept": "FINP",
+        "number": "436"
+    },
+    {
+        "dept": "FINP",
+        "number": "437"
+    },
+    {
+        "dept": "FINP",
+        "number": "438"
+    },
+    {
+        "dept": "FINP",
+        "number": "439"
+    },
+    {
+        "dept": "FIVS",
+        "number": "101"
+    },
+    {
+        "dept": "FIVS",
+        "number": "205"
+    },
+    {
+        "dept": "FIVS",
+        "number": "210"
+    },
+    {
+        "dept": "FIVS",
+        "number": "282"
+    },
+    {
+        "dept": "FIVS",
+        "number": "308"
+    },
+    {
+        "dept": "FIVS",
+        "number": "316"
+    },
+    {
+        "dept": "FIVS",
+        "number": "401"
+    },
+    {
+        "dept": "FIVS",
+        "number": "415"
+    },
+    {
+        "dept": "FIVS",
+        "number": "431"
+    },
+    {
+        "dept": "FIVS",
+        "number": "432"
+    },
+    {
+        "dept": "FIVS",
+        "number": "435"
+    },
+    {
+        "dept": "FIVS",
+        "number": "481"
+    },
+    {
+        "dept": "FREN",
+        "number": "101"
+    },
+    {
+        "dept": "FREN",
+        "number": "102"
+    },
+    {
+        "dept": "FREN",
+        "number": "201"
+    },
+    {
+        "dept": "FREN",
+        "number": "202"
+    },
+    {
+        "dept": "FREN",
+        "number": "221"
+    },
+    {
+        "dept": "FREN",
+        "number": "222"
+    },
+    {
+        "dept": "FREN",
+        "number": "300"
+    },
+    {
+        "dept": "FREN",
+        "number": "301"
+    },
+    {
+        "dept": "FREN",
+        "number": "306"
+    },
+    {
+        "dept": "FREN",
+        "number": "311"
+    },
+    {
+        "dept": "FREN",
+        "number": "321"
+    },
+    {
+        "dept": "FREN",
+        "number": "322"
+    },
+    {
+        "dept": "FREN",
+        "number": "336"
+    },
+    {
+        "dept": "FREN",
+        "number": "375"
+    },
+    {
+        "dept": "FREN",
+        "number": "425"
+    },
+    {
+        "dept": "FSTC",
+        "number": "201"
+    },
+    {
+        "dept": "FSTC",
+        "number": "210"
+    },
+    {
+        "dept": "FSTC",
+        "number": "300"
+    },
+    {
+        "dept": "FSTC",
+        "number": "311"
+    },
+    {
+        "dept": "FSTC",
+        "number": "312"
+    },
+    {
+        "dept": "FSTC",
+        "number": "313"
+    },
+    {
+        "dept": "FSTC",
+        "number": "314"
+    },
+    {
+        "dept": "FSTC",
+        "number": "315"
+    },
+    {
+        "dept": "FSTC",
+        "number": "320"
+    },
+    {
+        "dept": "FSTC",
+        "number": "326"
+    },
+    {
+        "dept": "FSTC",
+        "number": "327"
+    },
+    {
+        "dept": "FSTC",
+        "number": "330"
+    },
+    {
+        "dept": "FSTC",
+        "number": "410"
+    },
+    {
+        "dept": "FSTC",
+        "number": "457"
+    },
+    {
+        "dept": "FSTC",
+        "number": "470"
+    },
+    {
+        "dept": "FSTC",
+        "number": "487"
+    },
+    {
+        "dept": "GALV",
+        "number": "101"
+    },
+    {
+        "dept": "GALV",
+        "number": "201"
+    },
+    {
+        "dept": "GENE",
+        "number": "101"
+    },
+    {
+        "dept": "GENE",
+        "number": "102"
+    },
+    {
+        "dept": "GENE",
+        "number": "201"
+    },
+    {
+        "dept": "GENE",
+        "number": "202"
+    },
+    {
+        "dept": "GENE",
+        "number": "301"
+    },
+    {
+        "dept": "GENE",
+        "number": "302"
+    },
+    {
+        "dept": "GENE",
+        "number": "303"
+    },
+    {
+        "dept": "GENE",
+        "number": "310"
+    },
+    {
+        "dept": "GENE",
+        "number": "314"
+    },
+    {
+        "dept": "GENE",
+        "number": "320"
+    },
+    {
+        "dept": "GENE",
+        "number": "405"
+    },
+    {
+        "dept": "GENE",
+        "number": "406"
+    },
+    {
+        "dept": "GENE",
+        "number": "411"
+    },
+    {
+        "dept": "GENE",
+        "number": "416"
+    },
+    {
+        "dept": "GENE",
+        "number": "419"
+    },
+    {
+        "dept": "GENE",
+        "number": "420"
+    },
+    {
+        "dept": "GENE",
+        "number": "421"
+    },
+    {
+        "dept": "GENE",
+        "number": "431"
+    },
+    {
+        "dept": "GENE",
+        "number": "432"
+    },
+    {
+        "dept": "GENE",
+        "number": "464"
+    },
+    {
+        "dept": "GENE",
+        "number": "491"
+    },
+    {
+        "dept": "GEOG",
+        "number": "201"
+    },
+    {
+        "dept": "GEOG",
+        "number": "202"
+    },
+    {
+        "dept": "GEOG",
+        "number": "203"
+    },
+    {
+        "dept": "GEOG",
+        "number": "205"
+    },
+    {
+        "dept": "GEOG",
+        "number": "304"
+    },
+    {
+        "dept": "GEOG",
+        "number": "306"
+    },
+    {
+        "dept": "GEOG",
+        "number": "309"
+    },
+    {
+        "dept": "GEOG",
+        "number": "330"
+    },
+    {
+        "dept": "GEOG",
+        "number": "352"
+    },
+    {
+        "dept": "GEOG",
+        "number": "361"
+    },
+    {
+        "dept": "GEOG",
+        "number": "370"
+    },
+    {
+        "dept": "GEOG",
+        "number": "390"
+    },
+    {
+        "dept": "GEOG",
+        "number": "410"
+    },
+    {
+        "dept": "GEOG",
+        "number": "442"
+    },
+    {
+        "dept": "GEOG",
+        "number": "443"
+    },
+    {
+        "dept": "GEOG",
+        "number": "462"
+    },
+    {
+        "dept": "GEOG",
+        "number": "475"
+    },
+    {
+        "dept": "GEOL",
+        "number": "101"
+    },
+    {
+        "dept": "GEOL",
+        "number": "102"
+    },
+    {
+        "dept": "GEOL",
+        "number": "104"
+    },
+    {
+        "dept": "GEOL",
+        "number": "106"
+    },
+    {
+        "dept": "GEOL",
+        "number": "110"
+    },
+    {
+        "dept": "GEOL",
+        "number": "150"
+    },
+    {
+        "dept": "GEOL",
+        "number": "152"
+    },
+    {
+        "dept": "GEOL",
+        "number": "203"
+    },
+    {
+        "dept": "GEOL",
+        "number": "208"
+    },
+    {
+        "dept": "GEOL",
+        "number": "210"
+    },
+    {
+        "dept": "GEOL",
+        "number": "250"
+    },
+    {
+        "dept": "GEOL",
+        "number": "304"
+    },
+    {
+        "dept": "GEOL",
+        "number": "306"
+    },
+    {
+        "dept": "GEOL",
+        "number": "312"
+    },
+    {
+        "dept": "GEOL",
+        "number": "314"
+    },
+    {
+        "dept": "GEOL",
+        "number": "352"
+    },
+    {
+        "dept": "GEOL",
+        "number": "360"
+    },
+    {
+        "dept": "GEOL",
+        "number": "404"
+    },
+    {
+        "dept": "GEOL",
+        "number": "410"
+    },
+    {
+        "dept": "GEOL",
+        "number": "442"
+    },
+    {
+        "dept": "GEOL",
+        "number": "443"
+    },
+    {
+        "dept": "GEOP",
+        "number": "313"
+    },
+    {
+        "dept": "GEOP",
+        "number": "341"
+    },
+    {
+        "dept": "GEOP",
+        "number": "361"
+    },
+    {
+        "dept": "GERM",
+        "number": "101"
+    },
+    {
+        "dept": "GERM",
+        "number": "102"
+    },
+    {
+        "dept": "GERM",
+        "number": "104"
+    },
+    {
+        "dept": "GERM",
+        "number": "121"
+    },
+    {
+        "dept": "GERM",
+        "number": "201"
+    },
+    {
+        "dept": "GERM",
+        "number": "202"
+    },
+    {
+        "dept": "GERM",
+        "number": "204"
+    },
+    {
+        "dept": "GERM",
+        "number": "221"
+    },
+    {
+        "dept": "GERM",
+        "number": "222"
+    },
+    {
+        "dept": "GERM",
+        "number": "310"
+    },
+    {
+        "dept": "GERM",
+        "number": "315"
+    },
+    {
+        "dept": "GERM",
+        "number": "435"
+    },
+    {
+        "dept": "GLST",
+        "number": "201"
+    },
+    {
+        "dept": "GLST",
+        "number": "205"
+    },
+    {
+        "dept": "GLST",
+        "number": "211"
+    },
+    {
+        "dept": "GLST",
+        "number": "215"
+    },
+    {
+        "dept": "GLST",
+        "number": "220"
+    },
+    {
+        "dept": "GLST",
+        "number": "300"
+    },
+    {
+        "dept": "GLST",
+        "number": "311"
+    },
+    {
+        "dept": "GLST",
+        "number": "400"
+    },
+    {
+        "dept": "GLST",
+        "number": "401"
+    },
+    {
+        "dept": "GLST",
+        "number": "408"
+    },
+    {
+        "dept": "GLST",
+        "number": "410"
+    },
+    {
+        "dept": "GLST",
+        "number": "413"
+    },
+    {
+        "dept": "GLST",
+        "number": "467"
+    },
+    {
+        "dept": "GLST",
+        "number": "475"
+    },
+    {
+        "dept": "HBRW",
+        "number": "101"
+    },
+    {
+        "dept": "HEFB",
+        "number": "222"
+    },
+    {
+        "dept": "HEFB",
+        "number": "324"
+    },
+    {
+        "dept": "HEFB",
+        "number": "325"
+    },
+    {
+        "dept": "HEFB",
+        "number": "450"
+    },
+    {
+        "dept": "HHUM",
+        "number": "107"
+    },
+    {
+        "dept": "HHUM",
+        "number": "482"
+    },
+    {
+        "dept": "HISP",
+        "number": "262"
+    },
+    {
+        "dept": "HISP",
+        "number": "352"
+    },
+    {
+        "dept": "HISP",
+        "number": "362"
+    },
+    {
+        "dept": "HISP",
+        "number": "413"
+    },
+    {
+        "dept": "HISP",
+        "number": "471"
+    },
+    {
+        "dept": "HISP",
+        "number": "474"
+    },
+    {
+        "dept": "HIST",
+        "number": "105"
+    },
+    {
+        "dept": "HIST",
+        "number": "202"
+    },
+    {
+        "dept": "HIST",
+        "number": "212"
+    },
+    {
+        "dept": "HIST",
+        "number": "220"
+    },
+    {
+        "dept": "HIST",
+        "number": "221"
+    },
+    {
+        "dept": "HIST",
+        "number": "222"
+    },
+    {
+        "dept": "HIST",
+        "number": "236"
+    },
+    {
+        "dept": "HIST",
+        "number": "258"
+    },
+    {
+        "dept": "HIST",
+        "number": "280"
+    },
+    {
+        "dept": "HIST",
+        "number": "300"
+    },
+    {
+        "dept": "HIST",
+        "number": "301"
+    },
+    {
+        "dept": "HIST",
+        "number": "302"
+    },
+    {
+        "dept": "HIST",
+        "number": "308"
+    },
+    {
+        "dept": "HIST",
+        "number": "330"
+    },
+    {
+        "dept": "HIST",
+        "number": "344"
+    },
+    {
+        "dept": "HIST",
+        "number": "345"
+    },
+    {
+        "dept": "HIST",
+        "number": "346"
+    },
+    {
+        "dept": "HIST",
+        "number": "347"
+    },
+    {
+        "dept": "HIST",
+        "number": "349"
+    },
+    {
+        "dept": "HIST",
+        "number": "350"
+    },
+    {
+        "dept": "HIST",
+        "number": "352"
+    },
+    {
+        "dept": "HIST",
+        "number": "354"
+    },
+    {
+        "dept": "HIST",
+        "number": "355"
+    },
+    {
+        "dept": "HIST",
+        "number": "356"
+    },
+    {
+        "dept": "HIST",
+        "number": "357"
+    },
+    {
+        "dept": "HIST",
+        "number": "358"
+    },
+    {
+        "dept": "HIST",
+        "number": "365"
+    },
+    {
+        "dept": "HIST",
+        "number": "366"
+    },
+    {
+        "dept": "HIST",
+        "number": "377"
+    },
+    {
+        "dept": "HIST",
+        "number": "382"
+    },
+    {
+        "dept": "HIST",
+        "number": "401"
+    },
+    {
+        "dept": "HIST",
+        "number": "418"
+    },
+    {
+        "dept": "HIST",
+        "number": "419"
+    },
+    {
+        "dept": "HIST",
+        "number": "425"
+    },
+    {
+        "dept": "HIST",
+        "number": "426"
+    },
+    {
+        "dept": "HIST",
+        "number": "427"
+    },
+    {
+        "dept": "HIST",
+        "number": "428"
+    },
+    {
+        "dept": "HIST",
+        "number": "429"
+    },
+    {
+        "dept": "HIST",
+        "number": "433"
+    },
+    {
+        "dept": "HIST",
+        "number": "434"
+    },
+    {
+        "dept": "HIST",
+        "number": "461"
+    },
+    {
+        "dept": "HIST",
+        "number": "468"
+    },
+    {
+        "dept": "HIST",
+        "number": "473"
+    },
+    {
+        "dept": "HIST",
+        "number": "476"
+    },
+    {
+        "dept": "HIST",
+        "number": "477"
+    },
+    {
+        "dept": "HLTH",
+        "number": "210"
+    },
+    {
+        "dept": "HLTH",
+        "number": "214"
+    },
+    {
+        "dept": "HLTH",
+        "number": "216"
+    },
+    {
+        "dept": "HLTH",
+        "number": "222"
+    },
+    {
+        "dept": "HLTH",
+        "number": "231"
+    },
+    {
+        "dept": "HLTH",
+        "number": "240"
+    },
+    {
+        "dept": "HLTH",
+        "number": "331"
+    },
+    {
+        "dept": "HLTH",
+        "number": "332"
+    },
+    {
+        "dept": "HLTH",
+        "number": "333"
+    },
+    {
+        "dept": "HLTH",
+        "number": "334"
+    },
+    {
+        "dept": "HLTH",
+        "number": "342"
+    },
+    {
+        "dept": "HLTH",
+        "number": "353"
+    },
+    {
+        "dept": "HLTH",
+        "number": "354"
+    },
+    {
+        "dept": "HLTH",
+        "number": "403"
+    },
+    {
+        "dept": "HLTH",
+        "number": "405"
+    },
+    {
+        "dept": "HLTH",
+        "number": "415"
+    },
+    {
+        "dept": "HLTH",
+        "number": "425"
+    },
+    {
+        "dept": "HLTH",
+        "number": "440"
+    },
+    {
+        "dept": "HMGT",
+        "number": "201"
+    },
+    {
+        "dept": "HMGT",
+        "number": "211"
+    },
+    {
+        "dept": "HMGT",
+        "number": "223"
+    },
+    {
+        "dept": "HMGT",
+        "number": "281"
+    },
+    {
+        "dept": "HMGT",
+        "number": "302"
+    },
+    {
+        "dept": "HMGT",
+        "number": "320"
+    },
+    {
+        "dept": "HMGT",
+        "number": "340"
+    },
+    {
+        "dept": "HMGT",
+        "number": "352"
+    },
+    {
+        "dept": "HMGT",
+        "number": "353"
+    },
+    {
+        "dept": "HMGT",
+        "number": "384"
+    },
+    {
+        "dept": "HMGT",
+        "number": "401"
+    },
+    {
+        "dept": "HMGT",
+        "number": "411"
+    },
+    {
+        "dept": "HMGT",
+        "number": "446"
+    },
+    {
+        "dept": "HORT",
+        "number": "201"
+    },
+    {
+        "dept": "HORT",
+        "number": "202"
+    },
+    {
+        "dept": "HORT",
+        "number": "203"
+    },
+    {
+        "dept": "HORT",
+        "number": "301"
+    },
+    {
+        "dept": "HORT",
+        "number": "306"
+    },
+    {
+        "dept": "HORT",
+        "number": "308"
+    },
+    {
+        "dept": "HORT",
+        "number": "319"
+    },
+    {
+        "dept": "HORT",
+        "number": "332"
+    },
+    {
+        "dept": "HORT",
+        "number": "404"
+    },
+    {
+        "dept": "HORT",
+        "number": "432"
+    },
+    {
+        "dept": "HORT",
+        "number": "451"
+    },
+    {
+        "dept": "HUMA",
+        "number": "304"
+    },
+    {
+        "dept": "HUMA",
+        "number": "321"
+    },
+    {
+        "dept": "IBUS",
+        "number": "401"
+    },
+    {
+        "dept": "IBUS",
+        "number": "402"
+    },
+    {
+        "dept": "IBUS",
+        "number": "403"
+    },
+    {
+        "dept": "IBUS",
+        "number": "430"
+    },
+    {
+        "dept": "IBUS",
+        "number": "440"
+    },
+    {
+        "dept": "IBUS",
+        "number": "445"
+    },
+    {
+        "dept": "IBUS",
+        "number": "446"
+    },
+    {
+        "dept": "IBUS",
+        "number": "450"
+    },
+    {
+        "dept": "IBUS",
+        "number": "452"
+    },
+    {
+        "dept": "IBUS",
+        "number": "457"
+    },
+    {
+        "dept": "IDIS",
+        "number": "240"
+    },
+    {
+        "dept": "IDIS",
+        "number": "330"
+    },
+    {
+        "dept": "IDIS",
+        "number": "340"
+    },
+    {
+        "dept": "IDIS",
+        "number": "343"
+    },
+    {
+        "dept": "IDIS",
+        "number": "344"
+    },
+    {
+        "dept": "IDIS",
+        "number": "424"
+    },
+    {
+        "dept": "IDIS",
+        "number": "433"
+    },
+    {
+        "dept": "IDIS",
+        "number": "434"
+    },
+    {
+        "dept": "IDIS",
+        "number": "443"
+    },
+    {
+        "dept": "IDIS",
+        "number": "444"
+    },
+    {
+        "dept": "IDIS",
+        "number": "450"
+    },
+    {
+        "dept": "IDIS",
+        "number": "464"
+    },
+    {
+        "dept": "IDIS",
+        "number": "481"
+    },
+    {
+        "dept": "INST",
+        "number": "210"
+    },
+    {
+        "dept": "INST",
+        "number": "362"
+    },
+    {
+        "dept": "INTA",
+        "number": "211"
+    },
+    {
+        "dept": "INTA",
+        "number": "231"
+    },
+    {
+        "dept": "INTA",
+        "number": "261"
+    },
+    {
+        "dept": "INTA",
+        "number": "300"
+    },
+    {
+        "dept": "INTA",
+        "number": "301"
+    },
+    {
+        "dept": "INTA",
+        "number": "321"
+    },
+    {
+        "dept": "INTA",
+        "number": "401"
+    },
+    {
+        "dept": "INTA",
+        "number": "410"
+    },
+    {
+        "dept": "INTA",
+        "number": "489"
+    },
+    {
+        "dept": "ISEN",
+        "number": "210"
+    },
+    {
+        "dept": "ISEN",
+        "number": "230"
+    },
+    {
+        "dept": "ISEN",
+        "number": "302"
+    },
+    {
+        "dept": "ISEN",
+        "number": "310"
+    },
+    {
+        "dept": "ISEN",
+        "number": "320"
+    },
+    {
+        "dept": "ISEN",
+        "number": "330"
+    },
+    {
+        "dept": "ISEN",
+        "number": "340"
+    },
+    {
+        "dept": "ISEN",
+        "number": "350"
+    },
+    {
+        "dept": "ISEN",
+        "number": "355"
+    },
+    {
+        "dept": "ISEN",
+        "number": "370"
+    },
+    {
+        "dept": "ISEN",
+        "number": "427"
+    },
+    {
+        "dept": "ISEN",
+        "number": "432"
+    },
+    {
+        "dept": "ISTM",
+        "number": "209"
+    },
+    {
+        "dept": "ISTM",
+        "number": "210"
+    },
+    {
+        "dept": "ISTM",
+        "number": "250"
+    },
+    {
+        "dept": "ISTM",
+        "number": "310"
+    },
+    {
+        "dept": "ISTM",
+        "number": "313"
+    },
+    {
+        "dept": "ISTM",
+        "number": "315"
+    },
+    {
+        "dept": "ISTM",
+        "number": "320"
+    },
+    {
+        "dept": "ISTM",
+        "number": "360"
+    },
+    {
+        "dept": "ISTM",
+        "number": "410"
+    },
+    {
+        "dept": "ISTM",
+        "number": "440"
+    },
+    {
+        "dept": "ISTM",
+        "number": "455"
+    },
+    {
+        "dept": "ISTM",
+        "number": "601"
+    },
+    {
+        "dept": "ISTM",
+        "number": "610"
+    },
+    {
+        "dept": "ISTM",
+        "number": "615"
+    },
+    {
+        "dept": "ISTM",
+        "number": "620"
+    },
+    {
+        "dept": "ISTM",
+        "number": "622"
+    },
+    {
+        "dept": "ISTM",
+        "number": "630"
+    },
+    {
+        "dept": "ISTM",
+        "number": "635"
+    },
+    {
+        "dept": "ITAL",
+        "number": "101"
+    },
+    {
+        "dept": "ITAL",
+        "number": "102"
+    },
+    {
+        "dept": "ITAL",
+        "number": "201"
+    },
+    {
+        "dept": "ITAL",
+        "number": "202"
+    },
+    {
+        "dept": "ITAL",
+        "number": "221"
+    },
+    {
+        "dept": "ITAL",
+        "number": "222"
+    },
+    {
+        "dept": "ITAL",
+        "number": "455"
+    },
+    {
+        "dept": "ITDE",
+        "number": "201"
+    },
+    {
+        "dept": "ITDE",
+        "number": "301"
+    },
+    {
+        "dept": "ITDE",
+        "number": "401"
+    },
+    {
+        "dept": "ITDE",
+        "number": "402"
+    },
+    {
+        "dept": "ITSV",
+        "number": "101"
+    },
+    {
+        "dept": "ITSV",
+        "number": "272"
+    },
+    {
+        "dept": "ITSV",
+        "number": "274"
+    },
+    {
+        "dept": "ITSV",
+        "number": "303"
+    },
+    {
+        "dept": "ITSV",
+        "number": "308"
+    },
+    {
+        "dept": "ITSV",
+        "number": "316"
+    },
+    {
+        "dept": "ITSV",
+        "number": "385"
+    },
+    {
+        "dept": "ITSV",
+        "number": "396"
+    },
+    {
+        "dept": "ITSV",
+        "number": "412"
+    },
+    {
+        "dept": "ITSV",
+        "number": "465"
+    },
+    {
+        "dept": "ITSV",
+        "number": "475"
+    },
+    {
+        "dept": "JAPN",
+        "number": "101"
+    },
+    {
+        "dept": "JAPN",
+        "number": "102"
+    },
+    {
+        "dept": "JAPN",
+        "number": "201"
+    },
+    {
+        "dept": "JAPN",
+        "number": "202"
+    },
+    {
+        "dept": "JAPN",
+        "number": "301"
+    },
+    {
+        "dept": "JAPN",
+        "number": "302"
+    },
+    {
+        "dept": "JOUR",
+        "number": "102"
+    },
+    {
+        "dept": "JOUR",
+        "number": "200"
+    },
+    {
+        "dept": "JOUR",
+        "number": "203"
+    },
+    {
+        "dept": "JOUR",
+        "number": "215"
+    },
+    {
+        "dept": "JOUR",
+        "number": "230"
+    },
+    {
+        "dept": "JOUR",
+        "number": "248"
+    },
+    {
+        "dept": "JOUR",
+        "number": "250"
+    },
+    {
+        "dept": "JOUR",
+        "number": "255"
+    },
+    {
+        "dept": "JOUR",
+        "number": "275"
+    },
+    {
+        "dept": "JOUR",
+        "number": "301"
+    },
+    {
+        "dept": "JOUR",
+        "number": "302"
+    },
+    {
+        "dept": "JOUR",
+        "number": "305"
+    },
+    {
+        "dept": "JOUR",
+        "number": "306"
+    },
+    {
+        "dept": "JOUR",
+        "number": "317"
+    },
+    {
+        "dept": "JOUR",
+        "number": "319"
+    },
+    {
+        "dept": "JOUR",
+        "number": "345"
+    },
+    {
+        "dept": "JOUR",
+        "number": "346"
+    },
+    {
+        "dept": "JOUR",
+        "number": "365"
+    },
+    {
+        "dept": "JOUR",
+        "number": "458"
+    },
+    {
+        "dept": "JWST",
+        "number": "201"
+    },
+    {
+        "dept": "JWST",
+        "number": "315"
+    },
+    {
+        "dept": "KINE",
+        "number": "121"
+    },
+    {
+        "dept": "KINE",
+        "number": "199"
+    },
+    {
+        "dept": "KINE",
+        "number": "213"
+    },
+    {
+        "dept": "KINE",
+        "number": "214"
+    },
+    {
+        "dept": "KINE",
+        "number": "215"
+    },
+    {
+        "dept": "KINE",
+        "number": "216"
+    },
+    {
+        "dept": "KINE",
+        "number": "223"
+    },
+    {
+        "dept": "KINE",
+        "number": "406"
+    },
+    {
+        "dept": "KINE",
+        "number": "426"
+    },
+    {
+        "dept": "KINE",
+        "number": "433"
+    },
+    {
+        "dept": "KINE",
+        "number": "483"
+    },
+    {
+        "dept": "KNFB",
+        "number": "222"
+    },
+    {
+        "dept": "KNFB",
+        "number": "324"
+    },
+    {
+        "dept": "KNFB",
+        "number": "325"
+    },
+    {
+        "dept": "KNFB",
+        "number": "416"
+    },
+    {
+        "dept": "KNFB",
+        "number": "450"
+    },
+    {
+        "dept": "LAND",
+        "number": "101"
+    },
+    {
+        "dept": "LAND",
+        "number": "111"
+    },
+    {
+        "dept": "LAND",
+        "number": "112"
+    },
+    {
+        "dept": "LAND",
+        "number": "211"
+    },
+    {
+        "dept": "LAND",
+        "number": "212"
+    },
+    {
+        "dept": "LAND",
+        "number": "231"
+    },
+    {
+        "dept": "LAND",
+        "number": "232"
+    },
+    {
+        "dept": "LAND",
+        "number": "311"
+    },
+    {
+        "dept": "LAND",
+        "number": "312"
+    },
+    {
+        "dept": "LAND",
+        "number": "494"
+    },
+    {
+        "dept": "LING",
+        "number": "209"
+    },
+    {
+        "dept": "LING",
+        "number": "310"
+    },
+    {
+        "dept": "LING",
+        "number": "403"
+    },
+    {
+        "dept": "LMAS",
+        "number": "422"
+    },
+    {
+        "dept": "LMAS",
+        "number": "423"
+    },
+    {
+        "dept": "LMAS",
+        "number": "468"
+    },
+    {
+        "dept": "LTPS",
+        "number": "130"
+    },
+    {
+        "dept": "LTPS",
+        "number": "210"
+    },
+    {
+        "dept": "MARA",
+        "number": "201"
+    },
+    {
+        "dept": "MARA",
+        "number": "205"
+    },
+    {
+        "dept": "MARA",
+        "number": "345"
+    },
+    {
+        "dept": "MARA",
+        "number": "346"
+    },
+    {
+        "dept": "MARA",
+        "number": "363"
+    },
+    {
+        "dept": "MARA",
+        "number": "403"
+    },
+    {
+        "dept": "MARA",
+        "number": "445"
+    },
+    {
+        "dept": "MARB",
+        "number": "215"
+    },
+    {
+        "dept": "MARB",
+        "number": "301"
+    },
+    {
+        "dept": "MARB",
+        "number": "310"
+    },
+    {
+        "dept": "MARB",
+        "number": "311"
+    },
+    {
+        "dept": "MARB",
+        "number": "315"
+    },
+    {
+        "dept": "MARB",
+        "number": "421"
+    },
+    {
+        "dept": "MARB",
+        "number": "422"
+    },
+    {
+        "dept": "MARE",
+        "number": "100"
+    },
+    {
+        "dept": "MARE",
+        "number": "200"
+    },
+    {
+        "dept": "MARE",
+        "number": "202"
+    },
+    {
+        "dept": "MARE",
+        "number": "205"
+    },
+    {
+        "dept": "MARE",
+        "number": "206"
+    },
+    {
+        "dept": "MARE",
+        "number": "207"
+    },
+    {
+        "dept": "MARE",
+        "number": "209"
+    },
+    {
+        "dept": "MARE",
+        "number": "211"
+    },
+    {
+        "dept": "MARE",
+        "number": "242"
+    },
+    {
+        "dept": "MARE",
+        "number": "243"
+    },
+    {
+        "dept": "MARE",
+        "number": "261"
+    },
+    {
+        "dept": "MARE",
+        "number": "300"
+    },
+    {
+        "dept": "MARE",
+        "number": "301"
+    },
+    {
+        "dept": "MARE",
+        "number": "305"
+    },
+    {
+        "dept": "MARE",
+        "number": "306"
+    },
+    {
+        "dept": "MARE",
+        "number": "307"
+    },
+    {
+        "dept": "MARE",
+        "number": "309"
+    },
+    {
+        "dept": "MARE",
+        "number": "312"
+    },
+    {
+        "dept": "MARE",
+        "number": "313"
+    },
+    {
+        "dept": "MARE",
+        "number": "325"
+    },
+    {
+        "dept": "MARE",
+        "number": "350"
+    },
+    {
+        "dept": "MARE",
+        "number": "451"
+    },
+    {
+        "dept": "MARS",
+        "number": "102"
+    },
+    {
+        "dept": "MARS",
+        "number": "252"
+    },
+    {
+        "dept": "MARS",
+        "number": "280"
+    },
+    {
+        "dept": "MARS",
+        "number": "370"
+    },
+    {
+        "dept": "MARS",
+        "number": "425"
+    },
+    {
+        "dept": "MARS",
+        "number": "426"
+    },
+    {
+        "dept": "MARS",
+        "number": "491"
+    },
+    {
+        "dept": "MART",
+        "number": "103"
+    },
+    {
+        "dept": "MART",
+        "number": "115"
+    },
+    {
+        "dept": "MART",
+        "number": "130"
+    },
+    {
+        "dept": "MART",
+        "number": "200"
+    },
+    {
+        "dept": "MART",
+        "number": "201"
+    },
+    {
+        "dept": "MART",
+        "number": "202"
+    },
+    {
+        "dept": "MART",
+        "number": "204"
+    },
+    {
+        "dept": "MART",
+        "number": "210"
+    },
+    {
+        "dept": "MART",
+        "number": "212"
+    },
+    {
+        "dept": "MART",
+        "number": "213"
+    },
+    {
+        "dept": "MART",
+        "number": "215"
+    },
+    {
+        "dept": "MART",
+        "number": "225"
+    },
+    {
+        "dept": "MART",
+        "number": "300"
+    },
+    {
+        "dept": "MART",
+        "number": "303"
+    },
+    {
+        "dept": "MART",
+        "number": "307"
+    },
+    {
+        "dept": "MART",
+        "number": "310"
+    },
+    {
+        "dept": "MART",
+        "number": "311"
+    },
+    {
+        "dept": "MART",
+        "number": "313"
+    },
+    {
+        "dept": "MART",
+        "number": "321"
+    },
+    {
+        "dept": "MART",
+        "number": "350"
+    },
+    {
+        "dept": "MART",
+        "number": "400"
+    },
+    {
+        "dept": "MART",
+        "number": "404"
+    },
+    {
+        "dept": "MASC",
+        "number": "320"
+    },
+    {
+        "dept": "MASC",
+        "number": "351"
+    },
+    {
+        "dept": "MASC",
+        "number": "420"
+    },
+    {
+        "dept": "MASC",
+        "number": "450"
+    },
+    {
+        "dept": "MASE",
+        "number": "400"
+    },
+    {
+        "dept": "MAST",
+        "number": "220"
+    },
+    {
+        "dept": "MATH",
+        "number": "135"
+    },
+    {
+        "dept": "MATH",
+        "number": "136"
+    },
+    {
+        "dept": "MATH",
+        "number": "140"
+    },
+    {
+        "dept": "MATH",
+        "number": "142"
+    },
+    {
+        "dept": "MATH",
+        "number": "147"
+    },
+    {
+        "dept": "MATH",
+        "number": "148"
+    },
+    {
+        "dept": "MATH",
+        "number": "150"
+    },
+    {
+        "dept": "MATH",
+        "number": "151"
+    },
+    {
+        "dept": "MATH",
+        "number": "152"
+    },
+    {
+        "dept": "MATH",
+        "number": "168"
+    },
+    {
+        "dept": "MATH",
+        "number": "171"
+    },
+    {
+        "dept": "MATH",
+        "number": "172"
+    },
+    {
+        "dept": "MATH",
+        "number": "221"
+    },
+    {
+        "dept": "MATH",
+        "number": "251"
+    },
+    {
+        "dept": "MATH",
+        "number": "253"
+    },
+    {
+        "dept": "MATH",
+        "number": "300"
+    },
+    {
+        "dept": "MATH",
+        "number": "302"
+    },
+    {
+        "dept": "MATH",
+        "number": "304"
+    },
+    {
+        "dept": "MATH",
+        "number": "307"
+    },
+    {
+        "dept": "MATH",
+        "number": "308"
+    },
+    {
+        "dept": "MATH",
+        "number": "309"
+    },
+    {
+        "dept": "MATH",
+        "number": "311"
+    },
+    {
+        "dept": "MATH",
+        "number": "323"
+    },
+    {
+        "dept": "MATH",
+        "number": "325"
+    },
+    {
+        "dept": "MATH",
+        "number": "365"
+    },
+    {
+        "dept": "MATH",
+        "number": "366"
+    },
+    {
+        "dept": "MATH",
+        "number": "409"
+    },
+    {
+        "dept": "MATH",
+        "number": "410"
+    },
+    {
+        "dept": "MATH",
+        "number": "411"
+    },
+    {
+        "dept": "MATH",
+        "number": "415"
+    },
+    {
+        "dept": "MATH",
+        "number": "417"
+    },
+    {
+        "dept": "MATH",
+        "number": "424"
+    },
+    {
+        "dept": "MATH",
+        "number": "433"
+    },
+    {
+        "dept": "MATH",
+        "number": "436"
+    },
+    {
+        "dept": "MATH",
+        "number": "437"
+    },
+    {
+        "dept": "MATH",
+        "number": "446"
+    },
+    {
+        "dept": "MATH",
+        "number": "467"
+    },
+    {
+        "dept": "MATH",
+        "number": "470"
+    },
+    {
+        "dept": "MEEN",
+        "number": "210"
+    },
+    {
+        "dept": "MEEN",
+        "number": "221"
+    },
+    {
+        "dept": "MEEN",
+        "number": "222"
+    },
+    {
+        "dept": "MEEN",
+        "number": "223"
+    },
+    {
+        "dept": "MEEN",
+        "number": "225"
+    },
+    {
+        "dept": "MEEN",
+        "number": "260"
+    },
+    {
+        "dept": "MEEN",
+        "number": "305"
+    },
+    {
+        "dept": "MEEN",
+        "number": "315"
+    },
+    {
+        "dept": "MEEN",
+        "number": "344"
+    },
+    {
+        "dept": "MEEN",
+        "number": "345"
+    },
+    {
+        "dept": "MEEN",
+        "number": "357"
+    },
+    {
+        "dept": "MEEN",
+        "number": "360"
+    },
+    {
+        "dept": "MEEN",
+        "number": "361"
+    },
+    {
+        "dept": "MEEN",
+        "number": "363"
+    },
+    {
+        "dept": "MEEN",
+        "number": "364"
+    },
+    {
+        "dept": "MEEN",
+        "number": "365"
+    },
+    {
+        "dept": "MEEN",
+        "number": "368"
+    },
+    {
+        "dept": "MEEN",
+        "number": "401"
+    },
+    {
+        "dept": "MEEN",
+        "number": "407"
+    },
+    {
+        "dept": "MEEN",
+        "number": "417"
+    },
+    {
+        "dept": "MEEN",
+        "number": "461"
+    },
+    {
+        "dept": "MEEN",
+        "number": "464"
+    },
+    {
+        "dept": "MEEN",
+        "number": "477"
+    },
+    {
+        "dept": "MEFB",
+        "number": "450"
+    },
+    {
+        "dept": "MEFB",
+        "number": "452"
+    },
+    {
+        "dept": "MEFB",
+        "number": "460"
+    },
+    {
+        "dept": "MEFB",
+        "number": "470"
+    },
+    {
+        "dept": "MGMT",
+        "number": "311"
+    },
+    {
+        "dept": "MGMT",
+        "number": "363"
+    },
+    {
+        "dept": "MGMT",
+        "number": "373"
+    },
+    {
+        "dept": "MGMT",
+        "number": "376"
+    },
+    {
+        "dept": "MGMT",
+        "number": "430"
+    },
+    {
+        "dept": "MGMT",
+        "number": "450"
+    },
+    {
+        "dept": "MGMT",
+        "number": "452"
+    },
+    {
+        "dept": "MGMT",
+        "number": "457"
+    },
+    {
+        "dept": "MGMT",
+        "number": "476"
+    },
+    {
+        "dept": "MGMT",
+        "number": "478"
+    },
+    {
+        "dept": "MGMT",
+        "number": "479"
+    },
+    {
+        "dept": "MKTG",
+        "number": "321"
+    },
+    {
+        "dept": "MKTG",
+        "number": "323"
+    },
+    {
+        "dept": "MKTG",
+        "number": "335"
+    },
+    {
+        "dept": "MKTG",
+        "number": "401"
+    },
+    {
+        "dept": "MKTG",
+        "number": "402"
+    },
+    {
+        "dept": "MKTG",
+        "number": "403"
+    },
+    {
+        "dept": "MKTG",
+        "number": "409"
+    },
+    {
+        "dept": "MKTG",
+        "number": "443"
+    },
+    {
+        "dept": "MMET",
+        "number": "105"
+    },
+    {
+        "dept": "MMET",
+        "number": "181"
+    },
+    {
+        "dept": "MMET",
+        "number": "201"
+    },
+    {
+        "dept": "MMET",
+        "number": "206"
+    },
+    {
+        "dept": "MMET",
+        "number": "207"
+    },
+    {
+        "dept": "MMET",
+        "number": "275"
+    },
+    {
+        "dept": "MMET",
+        "number": "281"
+    },
+    {
+        "dept": "MMET",
+        "number": "301"
+    },
+    {
+        "dept": "MMET",
+        "number": "313"
+    },
+    {
+        "dept": "MMET",
+        "number": "320"
+    },
+    {
+        "dept": "MMET",
+        "number": "361"
+    },
+    {
+        "dept": "MMET",
+        "number": "363"
+    },
+    {
+        "dept": "MMET",
+        "number": "376"
+    },
+    {
+        "dept": "MMET",
+        "number": "380"
+    },
+    {
+        "dept": "MMET",
+        "number": "383"
+    },
+    {
+        "dept": "MMET",
+        "number": "410"
+    },
+    {
+        "dept": "MMET",
+        "number": "412"
+    },
+    {
+        "dept": "MMET",
+        "number": "422"
+    },
+    {
+        "dept": "MMET",
+        "number": "429"
+    },
+    {
+        "dept": "MMET",
+        "number": "463"
+    },
+    {
+        "dept": "MODL",
+        "number": "221"
+    },
+    {
+        "dept": "MODL",
+        "number": "222"
+    },
+    {
+        "dept": "MSEN",
+        "number": "201"
+    },
+    {
+        "dept": "MSEN",
+        "number": "205"
+    },
+    {
+        "dept": "MSEN",
+        "number": "210"
+    },
+    {
+        "dept": "MSEN",
+        "number": "222"
+    },
+    {
+        "dept": "MSEN",
+        "number": "250"
+    },
+    {
+        "dept": "MSEN",
+        "number": "260"
+    },
+    {
+        "dept": "MSEN",
+        "number": "281"
+    },
+    {
+        "dept": "MSEN",
+        "number": "301"
+    },
+    {
+        "dept": "MSEN",
+        "number": "302"
+    },
+    {
+        "dept": "MSEN",
+        "number": "305"
+    },
+    {
+        "dept": "MSEN",
+        "number": "320"
+    },
+    {
+        "dept": "MSEN",
+        "number": "325"
+    },
+    {
+        "dept": "MSEN",
+        "number": "380"
+    },
+    {
+        "dept": "MSEN",
+        "number": "400"
+    },
+    {
+        "dept": "MSEN",
+        "number": "401"
+    },
+    {
+        "dept": "MSEN",
+        "number": "440"
+    },
+    {
+        "dept": "MSEN",
+        "number": "470"
+    },
+    {
+        "dept": "MSTC",
+        "number": "101"
+    },
+    {
+        "dept": "MSTC",
+        "number": "221"
+    },
+    {
+        "dept": "MSTC",
+        "number": "223"
+    },
+    {
+        "dept": "MTDE",
+        "number": "252"
+    },
+    {
+        "dept": "MTDE",
+        "number": "311"
+    },
+    {
+        "dept": "MTDE",
+        "number": "312"
+    },
+    {
+        "dept": "MTDE",
+        "number": "313"
+    },
+    {
+        "dept": "MTDE",
+        "number": "314"
+    },
+    {
+        "dept": "MTDE",
+        "number": "333"
+    },
+    {
+        "dept": "MTDE",
+        "number": "430"
+    },
+    {
+        "dept": "MUSC",
+        "number": "130"
+    },
+    {
+        "dept": "MUSC",
+        "number": "204"
+    },
+    {
+        "dept": "MUSC",
+        "number": "205"
+    },
+    {
+        "dept": "MUSC",
+        "number": "206"
+    },
+    {
+        "dept": "MUSC",
+        "number": "208"
+    },
+    {
+        "dept": "MUSC",
+        "number": "210"
+    },
+    {
+        "dept": "MUSC",
+        "number": "212"
+    },
+    {
+        "dept": "MUSC",
+        "number": "235"
+    },
+    {
+        "dept": "MUSC",
+        "number": "245"
+    },
+    {
+        "dept": "MUSC",
+        "number": "253"
+    },
+    {
+        "dept": "MUSC",
+        "number": "254"
+    },
+    {
+        "dept": "MUSC",
+        "number": "255"
+    },
+    {
+        "dept": "MUSC",
+        "number": "256"
+    },
+    {
+        "dept": "MUSC",
+        "number": "270"
+    },
+    {
+        "dept": "MUSC",
+        "number": "271"
+    },
+    {
+        "dept": "MUSC",
+        "number": "272"
+    },
+    {
+        "dept": "MUSC",
+        "number": "273"
+    },
+    {
+        "dept": "MUSC",
+        "number": "324"
+    },
+    {
+        "dept": "MUSC",
+        "number": "327"
+    },
+    {
+        "dept": "MUSC",
+        "number": "330"
+    },
+    {
+        "dept": "MUSC",
+        "number": "386"
+    },
+    {
+        "dept": "MUSC",
+        "number": "430"
+    },
+    {
+        "dept": "MUST",
+        "number": "221"
+    },
+    {
+        "dept": "MUST",
+        "number": "421"
+    },
+    {
+        "dept": "MXET",
+        "number": "300"
+    },
+    {
+        "dept": "MXET",
+        "number": "375"
+    },
+    {
+        "dept": "NAUT",
+        "number": "300"
+    },
+    {
+        "dept": "NRSC",
+        "number": "201"
+    },
+    {
+        "dept": "NRSC",
+        "number": "401"
+    },
+    {
+        "dept": "NRSC",
+        "number": "407"
+    },
+    {
+        "dept": "NRSC",
+        "number": "428"
+    },
+    {
+        "dept": "NRSC",
+        "number": "434"
+    },
+    {
+        "dept": "NRSC",
+        "number": "444"
+    },
+    {
+        "dept": "NRSC",
+        "number": "491"
+    },
+    {
+        "dept": "NRSC",
+        "number": "606"
+    },
+    {
+        "dept": "NRSC",
+        "number": "609"
+    },
+    {
+        "dept": "NRSC",
+        "number": "615"
+    },
+    {
+        "dept": "NRSC",
+        "number": "642"
+    },
+    {
+        "dept": "NRSC",
+        "number": "649"
+    },
+    {
+        "dept": "NRSC",
+        "number": "655"
+    },
+    {
+        "dept": "NRSC",
+        "number": "671"
+    },
+    {
+        "dept": "NUEN",
+        "number": "101"
+    },
+    {
+        "dept": "NUEN",
+        "number": "201"
+    },
+    {
+        "dept": "NUEN",
+        "number": "265"
+    },
+    {
+        "dept": "NUEN",
+        "number": "301"
+    },
+    {
+        "dept": "NUEN",
+        "number": "302"
+    },
+    {
+        "dept": "NUEN",
+        "number": "303"
+    },
+    {
+        "dept": "NUEN",
+        "number": "304"
+    },
+    {
+        "dept": "NUEN",
+        "number": "309"
+    },
+    {
+        "dept": "NUEN",
+        "number": "329"
+    },
+    {
+        "dept": "NUEN",
+        "number": "406"
+    },
+    {
+        "dept": "NUEN",
+        "number": "410"
+    },
+    {
+        "dept": "NUEN",
+        "number": "417"
+    },
+    {
+        "dept": "NUEN",
+        "number": "430"
+    },
+    {
+        "dept": "NUEN",
+        "number": "475"
+    },
+    {
+        "dept": "NUEN",
+        "number": "479"
+    },
+    {
+        "dept": "NURS",
+        "number": "305"
+    },
+    {
+        "dept": "NURS",
+        "number": "306"
+    },
+    {
+        "dept": "NURS",
+        "number": "307"
+    },
+    {
+        "dept": "NURS",
+        "number": "312"
+    },
+    {
+        "dept": "NURS",
+        "number": "313"
+    },
+    {
+        "dept": "NURS",
+        "number": "314"
+    },
+    {
+        "dept": "NURS",
+        "number": "315"
+    },
+    {
+        "dept": "NURS",
+        "number": "316"
+    },
+    {
+        "dept": "NURS",
+        "number": "320"
+    },
+    {
+        "dept": "NURS",
+        "number": "330"
+    },
+    {
+        "dept": "NURS",
+        "number": "332"
+    },
+    {
+        "dept": "NURS",
+        "number": "340"
+    },
+    {
+        "dept": "NURS",
+        "number": "341"
+    },
+    {
+        "dept": "NURS",
+        "number": "343"
+    },
+    {
+        "dept": "NURS",
+        "number": "411"
+    },
+    {
+        "dept": "NURS",
+        "number": "412"
+    },
+    {
+        "dept": "NURS",
+        "number": "418"
+    },
+    {
+        "dept": "NURS",
+        "number": "419"
+    },
+    {
+        "dept": "NURS",
+        "number": "420"
+    },
+    {
+        "dept": "NURS",
+        "number": "421"
+    },
+    {
+        "dept": "NURS",
+        "number": "433"
+    },
+    {
+        "dept": "NURS",
+        "number": "435"
+    },
+    {
+        "dept": "NURS",
+        "number": "442"
+    },
+    {
+        "dept": "NURS",
+        "number": "445"
+    },
+    {
+        "dept": "NUTR",
+        "number": "202"
+    },
+    {
+        "dept": "NUTR",
+        "number": "203"
+    },
+    {
+        "dept": "NUTR",
+        "number": "210"
+    },
+    {
+        "dept": "NUTR",
+        "number": "211"
+    },
+    {
+        "dept": "NUTR",
+        "number": "300"
+    },
+    {
+        "dept": "NUTR",
+        "number": "301"
+    },
+    {
+        "dept": "NUTR",
+        "number": "303"
+    },
+    {
+        "dept": "NUTR",
+        "number": "306"
+    },
+    {
+        "dept": "NUTR",
+        "number": "320"
+    },
+    {
+        "dept": "NUTR",
+        "number": "366"
+    },
+    {
+        "dept": "NUTR",
+        "number": "367"
+    },
+    {
+        "dept": "NUTR",
+        "number": "403"
+    },
+    {
+        "dept": "NUTR",
+        "number": "404"
+    },
+    {
+        "dept": "NUTR",
+        "number": "410"
+    },
+    {
+        "dept": "NVSC",
+        "number": "301"
+    },
+    {
+        "dept": "NVSC",
+        "number": "303"
+    },
+    {
+        "dept": "OCEN",
+        "number": "201"
+    },
+    {
+        "dept": "OCEN",
+        "number": "213"
+    },
+    {
+        "dept": "OCEN",
+        "number": "214"
+    },
+    {
+        "dept": "OCEN",
+        "number": "221"
+    },
+    {
+        "dept": "OCEN",
+        "number": "300"
+    },
+    {
+        "dept": "OCEN",
+        "number": "311"
+    },
+    {
+        "dept": "OCEN",
+        "number": "345"
+    },
+    {
+        "dept": "OCEN",
+        "number": "351"
+    },
+    {
+        "dept": "OCEN",
+        "number": "361"
+    },
+    {
+        "dept": "OCEN",
+        "number": "362"
+    },
+    {
+        "dept": "OCEN",
+        "number": "363"
+    },
+    {
+        "dept": "OCEN",
+        "number": "400"
+    },
+    {
+        "dept": "OCEN",
+        "number": "402"
+    },
+    {
+        "dept": "OCEN",
+        "number": "403"
+    },
+    {
+        "dept": "OCEN",
+        "number": "406"
+    },
+    {
+        "dept": "OCEN",
+        "number": "407"
+    },
+    {
+        "dept": "OCNG",
+        "number": "203"
+    },
+    {
+        "dept": "OCNG",
+        "number": "251"
+    },
+    {
+        "dept": "OCNG",
+        "number": "252"
+    },
+    {
+        "dept": "OCNG",
+        "number": "412"
+    },
+    {
+        "dept": "PBSI",
+        "number": "107"
+    },
+    {
+        "dept": "PBSI",
+        "number": "206"
+    },
+    {
+        "dept": "PBSI",
+        "number": "209"
+    },
+    {
+        "dept": "PBSI",
+        "number": "210"
+    },
+    {
+        "dept": "PBSI",
+        "number": "235"
+    },
+    {
+        "dept": "PBSI",
+        "number": "245"
+    },
+    {
+        "dept": "PBSI",
+        "number": "251"
+    },
+    {
+        "dept": "PBSI",
+        "number": "285"
+    },
+    {
+        "dept": "PBSI",
+        "number": "300"
+    },
+    {
+        "dept": "PBSI",
+        "number": "301"
+    },
+    {
+        "dept": "PBSI",
+        "number": "302"
+    },
+    {
+        "dept": "PBSI",
+        "number": "303"
+    },
+    {
+        "dept": "PBSI",
+        "number": "306"
+    },
+    {
+        "dept": "PBSI",
+        "number": "307"
+    },
+    {
+        "dept": "PBSI",
+        "number": "315"
+    },
+    {
+        "dept": "PBSI",
+        "number": "340"
+    },
+    {
+        "dept": "PBSI",
+        "number": "352"
+    },
+    {
+        "dept": "PBSI",
+        "number": "353"
+    },
+    {
+        "dept": "PBSI",
+        "number": "360"
+    },
+    {
+        "dept": "PBSI",
+        "number": "607"
+    },
+    {
+        "dept": "PBSI",
+        "number": "608"
+    },
+    {
+        "dept": "PBSI",
+        "number": "610"
+    },
+    {
+        "dept": "PBSI",
+        "number": "611"
+    },
+    {
+        "dept": "PBSI",
+        "number": "623"
+    },
+    {
+        "dept": "PBSI",
+        "number": "624"
+    },
+    {
+        "dept": "PBSI",
+        "number": "637"
+    },
+    {
+        "dept": "PBSI",
+        "number": "652"
+    },
+    {
+        "dept": "PBSI",
+        "number": "653"
+    },
+    {
+        "dept": "PBSI",
+        "number": "671"
+    },
+    {
+        "dept": "PBSI",
+        "number": "685"
+    },
+    {
+        "dept": "PBSI",
+        "number": "691"
+    },
+    {
+        "dept": "PERF",
+        "number": "101"
+    },
+    {
+        "dept": "PERF",
+        "number": "303"
+    },
+    {
+        "dept": "PERF",
+        "number": "320"
+    },
+    {
+        "dept": "PERF",
+        "number": "330"
+    },
+    {
+        "dept": "PERF",
+        "number": "399"
+    },
+    {
+        "dept": "PETE",
+        "number": "219"
+    },
+    {
+        "dept": "PETE",
+        "number": "225"
+    },
+    {
+        "dept": "PETE",
+        "number": "301"
+    },
+    {
+        "dept": "PETE",
+        "number": "310"
+    },
+    {
+        "dept": "PETE",
+        "number": "311"
+    },
+    {
+        "dept": "PETE",
+        "number": "314"
+    },
+    {
+        "dept": "PETE",
+        "number": "315"
+    },
+    {
+        "dept": "PETE",
+        "number": "321"
+    },
+    {
+        "dept": "PETE",
+        "number": "323"
+    },
+    {
+        "dept": "PETE",
+        "number": "324"
+    },
+    {
+        "dept": "PETE",
+        "number": "325"
+    },
+    {
+        "dept": "PETE",
+        "number": "335"
+    },
+    {
+        "dept": "PETE",
+        "number": "336"
+    },
+    {
+        "dept": "PETE",
+        "number": "337"
+    },
+    {
+        "dept": "PETE",
+        "number": "353"
+    },
+    {
+        "dept": "PETE",
+        "number": "355"
+    },
+    {
+        "dept": "PETE",
+        "number": "401"
+    },
+    {
+        "dept": "PETE",
+        "number": "404"
+    },
+    {
+        "dept": "PETE",
+        "number": "410"
+    },
+    {
+        "dept": "PETE",
+        "number": "419"
+    },
+    {
+        "dept": "PETE",
+        "number": "435"
+    },
+    {
+        "dept": "PETE",
+        "number": "436"
+    },
+    {
+        "dept": "PHIL",
+        "number": "107"
+    },
+    {
+        "dept": "PHIL",
+        "number": "202"
+    },
+    {
+        "dept": "PHIL",
+        "number": "240"
+    },
+    {
+        "dept": "PHIL",
+        "number": "252"
+    },
+    {
+        "dept": "PHIL",
+        "number": "331"
+    },
+    {
+        "dept": "PHIL",
+        "number": "341"
+    },
+    {
+        "dept": "PHIL",
+        "number": "352"
+    },
+    {
+        "dept": "PHIL",
+        "number": "353"
+    },
+    {
+        "dept": "PHIL",
+        "number": "376"
+    },
+    {
+        "dept": "PHIL",
+        "number": "464"
+    },
+    {
+        "dept": "PHIL",
+        "number": "465"
+    },
+    {
+        "dept": "PHLT",
+        "number": "270"
+    },
+    {
+        "dept": "PHLT",
+        "number": "302"
+    },
+    {
+        "dept": "PHLT",
+        "number": "305"
+    },
+    {
+        "dept": "PHLT",
+        "number": "310"
+    },
+    {
+        "dept": "PHLT",
+        "number": "313"
+    },
+    {
+        "dept": "PHLT",
+        "number": "314"
+    },
+    {
+        "dept": "PHLT",
+        "number": "331"
+    },
+    {
+        "dept": "PHLT",
+        "number": "342"
+    },
+    {
+        "dept": "PHLT",
+        "number": "353"
+    },
+    {
+        "dept": "PHLT",
+        "number": "354"
+    },
+    {
+        "dept": "PHLT",
+        "number": "360"
+    },
+    {
+        "dept": "PHLT",
+        "number": "363"
+    },
+    {
+        "dept": "PHLT",
+        "number": "403"
+    },
+    {
+        "dept": "PHLT",
+        "number": "405"
+    },
+    {
+        "dept": "PHLT",
+        "number": "411"
+    },
+    {
+        "dept": "PHLT",
+        "number": "420"
+    },
+    {
+        "dept": "PHLT",
+        "number": "425"
+    },
+    {
+        "dept": "PHLT",
+        "number": "426"
+    },
+    {
+        "dept": "PHLT",
+        "number": "440"
+    },
+    {
+        "dept": "PHLT",
+        "number": "441"
+    },
+    {
+        "dept": "PHLT",
+        "number": "485"
+    },
+    {
+        "dept": "PHYS",
+        "number": "104"
+    },
+    {
+        "dept": "PHYS",
+        "number": "109"
+    },
+    {
+        "dept": "PHYS",
+        "number": "119"
+    },
+    {
+        "dept": "PHYS",
+        "number": "150"
+    },
+    {
+        "dept": "PHYS",
+        "number": "201"
+    },
+    {
+        "dept": "PHYS",
+        "number": "202"
+    },
+    {
+        "dept": "PHYS",
+        "number": "206"
+    },
+    {
+        "dept": "PHYS",
+        "number": "207"
+    },
+    {
+        "dept": "PHYS",
+        "number": "216"
+    },
+    {
+        "dept": "PHYS",
+        "number": "217"
+    },
+    {
+        "dept": "PHYS",
+        "number": "221"
+    },
+    {
+        "dept": "PHYS",
+        "number": "222"
+    },
+    {
+        "dept": "PHYS",
+        "number": "225"
+    },
+    {
+        "dept": "PHYS",
+        "number": "226"
+    },
+    {
+        "dept": "PHYS",
+        "number": "227"
+    },
+    {
+        "dept": "PHYS",
+        "number": "302"
+    },
+    {
+        "dept": "PHYS",
+        "number": "304"
+    },
+    {
+        "dept": "PHYS",
+        "number": "309"
+    },
+    {
+        "dept": "PHYS",
+        "number": "327"
+    },
+    {
+        "dept": "PHYS",
+        "number": "331"
+    },
+    {
+        "dept": "PHYS",
+        "number": "332"
+    },
+    {
+        "dept": "PHYS",
+        "number": "412"
+    },
+    {
+        "dept": "PLPA",
+        "number": "301"
+    },
+    {
+        "dept": "POLS",
+        "number": "206"
+    },
+    {
+        "dept": "POLS",
+        "number": "207"
+    },
+    {
+        "dept": "POLS",
+        "number": "209"
+    },
+    {
+        "dept": "POLS",
+        "number": "302"
+    },
+    {
+        "dept": "POLS",
+        "number": "306"
+    },
+    {
+        "dept": "POLS",
+        "number": "323"
+    },
+    {
+        "dept": "POLS",
+        "number": "340"
+    },
+    {
+        "dept": "POLS",
+        "number": "367"
+    },
+    {
+        "dept": "POLS",
+        "number": "462"
+    },
+    {
+        "dept": "PORT",
+        "number": "101"
+    },
+    {
+        "dept": "PORT",
+        "number": "102"
+    },
+    {
+        "dept": "PORT",
+        "number": "201"
+    },
+    {
+        "dept": "POSC",
+        "number": "201"
+    },
+    {
+        "dept": "POSC",
+        "number": "308"
+    },
+    {
+        "dept": "POSC",
+        "number": "309"
+    },
+    {
+        "dept": "POSC",
+        "number": "405"
+    },
+    {
+        "dept": "POSC",
+        "number": "411"
+    },
+    {
+        "dept": "PSAA",
+        "number": "210"
+    },
+    {
+        "dept": "PSAA",
+        "number": "301"
+    },
+    {
+        "dept": "PSAA",
+        "number": "340"
+    },
+    {
+        "dept": "PSAA",
+        "number": "350"
+    },
+    {
+        "dept": "PSAA",
+        "number": "465"
+    },
+    {
+        "dept": "PVFA",
+        "number": "111"
+    },
+    {
+        "dept": "PVFA",
+        "number": "201"
+    },
+    {
+        "dept": "PVFA",
+        "number": "301"
+    },
+    {
+        "dept": "RDNG",
+        "number": "351"
+    },
+    {
+        "dept": "RDNG",
+        "number": "373"
+    },
+    {
+        "dept": "RDNG",
+        "number": "467"
+    },
+    {
+        "dept": "RDNG",
+        "number": "470"
+    },
+    {
+        "dept": "RDNG",
+        "number": "473"
+    },
+    {
+        "dept": "RDNG",
+        "number": "490"
+    },
+    {
+        "dept": "RELS",
+        "number": "201"
+    },
+    {
+        "dept": "RELS",
+        "number": "212"
+    },
+    {
+        "dept": "RELS",
+        "number": "220"
+    },
+    {
+        "dept": "RELS",
+        "number": "221"
+    },
+    {
+        "dept": "RELS",
+        "number": "222"
+    },
+    {
+        "dept": "RELS",
+        "number": "251"
+    },
+    {
+        "dept": "RELS",
+        "number": "257"
+    },
+    {
+        "dept": "RELS",
+        "number": "304"
+    },
+    {
+        "dept": "RELS",
+        "number": "317"
+    },
+    {
+        "dept": "RELS",
+        "number": "321"
+    },
+    {
+        "dept": "RELS",
+        "number": "326"
+    },
+    {
+        "dept": "RELS",
+        "number": "331"
+    },
+    {
+        "dept": "RELS",
+        "number": "340"
+    },
+    {
+        "dept": "RELS",
+        "number": "347"
+    },
+    {
+        "dept": "RELS",
+        "number": "360"
+    },
+    {
+        "dept": "RELS",
+        "number": "365"
+    },
+    {
+        "dept": "RELS",
+        "number": "366"
+    },
+    {
+        "dept": "RELS",
+        "number": "392"
+    },
+    {
+        "dept": "RELS",
+        "number": "403"
+    },
+    {
+        "dept": "RELS",
+        "number": "418"
+    },
+    {
+        "dept": "RELS",
+        "number": "419"
+    },
+    {
+        "dept": "RELS",
+        "number": "425"
+    },
+    {
+        "dept": "RELS",
+        "number": "430"
+    },
+    {
+        "dept": "RELS",
+        "number": "436"
+    },
+    {
+        "dept": "RELS",
+        "number": "438"
+    },
+    {
+        "dept": "RELS",
+        "number": "464"
+    },
+    {
+        "dept": "RELS",
+        "number": "465"
+    },
+    {
+        "dept": "RELS",
+        "number": "471"
+    },
+    {
+        "dept": "RELS",
+        "number": "474"
+    },
+    {
+        "dept": "RELS",
+        "number": "480"
+    },
+    {
+        "dept": "RPTS",
+        "number": "304"
+    },
+    {
+        "dept": "RPTS",
+        "number": "321"
+    },
+    {
+        "dept": "RPTS",
+        "number": "404"
+    },
+    {
+        "dept": "RPTS",
+        "number": "460"
+    },
+    {
+        "dept": "RUSS",
+        "number": "101"
+    },
+    {
+        "dept": "RUSS",
+        "number": "102"
+    },
+    {
+        "dept": "RUSS",
+        "number": "201"
+    },
+    {
+        "dept": "RUSS",
+        "number": "202"
+    },
+    {
+        "dept": "RUSS",
+        "number": "221"
+    },
+    {
+        "dept": "RUSS",
+        "number": "222"
+    },
+    {
+        "dept": "RUSS",
+        "number": "245"
+    },
+    {
+        "dept": "RUSS",
+        "number": "301"
+    },
+    {
+        "dept": "RUSS",
+        "number": "441"
+    },
+    {
+        "dept": "RUSS",
+        "number": "442"
+    },
+    {
+        "dept": "RUSS",
+        "number": "443"
+    },
+    {
+        "dept": "RUSS",
+        "number": "444"
+    },
+    {
+        "dept": "RUSS",
+        "number": "446"
+    },
+    {
+        "dept": "RUSS",
+        "number": "447"
+    },
+    {
+        "dept": "RWFM",
+        "number": "103"
+    },
+    {
+        "dept": "RWFM",
+        "number": "302"
+    },
+    {
+        "dept": "RWFM",
+        "number": "308"
+    },
+    {
+        "dept": "RWFM",
+        "number": "309"
+    },
+    {
+        "dept": "RWFM",
+        "number": "314"
+    },
+    {
+        "dept": "RWFM",
+        "number": "317"
+    },
+    {
+        "dept": "RWFM",
+        "number": "350"
+    },
+    {
+        "dept": "RWFM",
+        "number": "351"
+    },
+    {
+        "dept": "RWFM",
+        "number": "400"
+    },
+    {
+        "dept": "RWFM",
+        "number": "404"
+    },
+    {
+        "dept": "RWFM",
+        "number": "406"
+    },
+    {
+        "dept": "SCMT",
+        "number": "305"
+    },
+    {
+        "dept": "SCMT",
+        "number": "340"
+    },
+    {
+        "dept": "SCMT",
+        "number": "361"
+    },
+    {
+        "dept": "SCMT",
+        "number": "364"
+    },
+    {
+        "dept": "SCMT",
+        "number": "375"
+    },
+    {
+        "dept": "SCMT",
+        "number": "455"
+    },
+    {
+        "dept": "SCSC",
+        "number": "105"
+    },
+    {
+        "dept": "SCSC",
+        "number": "205"
+    },
+    {
+        "dept": "SCSC",
+        "number": "301"
+    },
+    {
+        "dept": "SCSC",
+        "number": "302"
+    },
+    {
+        "dept": "SCSC",
+        "number": "304"
+    },
+    {
+        "dept": "SCSC",
+        "number": "307"
+    },
+    {
+        "dept": "SCSC",
+        "number": "309"
+    },
+    {
+        "dept": "SCSC",
+        "number": "401"
+    },
+    {
+        "dept": "SCSC",
+        "number": "405"
+    },
+    {
+        "dept": "SCSC",
+        "number": "411"
+    },
+    {
+        "dept": "SCSC",
+        "number": "422"
+    },
+    {
+        "dept": "SCSC",
+        "number": "428"
+    },
+    {
+        "dept": "SCSC",
+        "number": "429"
+    },
+    {
+        "dept": "SCSC",
+        "number": "453"
+    },
+    {
+        "dept": "SEFB",
+        "number": "315"
+    },
+    {
+        "dept": "SEFB",
+        "number": "325"
+    },
+    {
+        "dept": "SEFB",
+        "number": "410"
+    },
+    {
+        "dept": "SENG",
+        "number": "430"
+    },
+    {
+        "dept": "SENG",
+        "number": "455"
+    },
+    {
+        "dept": "SENG",
+        "number": "460"
+    },
+    {
+        "dept": "SOCI",
+        "number": "205"
+    },
+    {
+        "dept": "SOCI",
+        "number": "207"
+    },
+    {
+        "dept": "SOCI",
+        "number": "211"
+    },
+    {
+        "dept": "SOCI",
+        "number": "213"
+    },
+    {
+        "dept": "SOCI",
+        "number": "215"
+    },
+    {
+        "dept": "SOCI",
+        "number": "220"
+    },
+    {
+        "dept": "SOCI",
+        "number": "230"
+    },
+    {
+        "dept": "SOCI",
+        "number": "304"
+    },
+    {
+        "dept": "SOCI",
+        "number": "315"
+    },
+    {
+        "dept": "SOCI",
+        "number": "316"
+    },
+    {
+        "dept": "SOCI",
+        "number": "317"
+    },
+    {
+        "dept": "SOCI",
+        "number": "319"
+    },
+    {
+        "dept": "SOCI",
+        "number": "323"
+    },
+    {
+        "dept": "SOCI",
+        "number": "326"
+    },
+    {
+        "dept": "SOCI",
+        "number": "376"
+    },
+    {
+        "dept": "SOCI",
+        "number": "404"
+    },
+    {
+        "dept": "SOCI",
+        "number": "410"
+    },
+    {
+        "dept": "SOCI",
+        "number": "421"
+    },
+    {
+        "dept": "SOCI",
+        "number": "422"
+    },
+    {
+        "dept": "SOCI",
+        "number": "432"
+    },
+    {
+        "dept": "SOCI",
+        "number": "450"
+    },
+    {
+        "dept": "SOCI",
+        "number": "455"
+    },
+    {
+        "dept": "SOCI",
+        "number": "463"
+    },
+    {
+        "dept": "SOCI",
+        "number": "476"
+    },
+    {
+        "dept": "SOMS",
+        "number": "280"
+    },
+    {
+        "dept": "SOMS",
+        "number": "380"
+    },
+    {
+        "dept": "SOMS",
+        "number": "481"
+    },
+    {
+        "dept": "SPAN",
+        "number": "101"
+    },
+    {
+        "dept": "SPAN",
+        "number": "102"
+    },
+    {
+        "dept": "SPAN",
+        "number": "201"
+    },
+    {
+        "dept": "SPAN",
+        "number": "202"
+    },
+    {
+        "dept": "SPAN",
+        "number": "203"
+    },
+    {
+        "dept": "SPAN",
+        "number": "208"
+    },
+    {
+        "dept": "SPAN",
+        "number": "218"
+    },
+    {
+        "dept": "SPAN",
+        "number": "221"
+    },
+    {
+        "dept": "SPAN",
+        "number": "222"
+    },
+    {
+        "dept": "SPAN",
+        "number": "302"
+    },
+    {
+        "dept": "SPAN",
+        "number": "303"
+    },
+    {
+        "dept": "SPAN",
+        "number": "304"
+    },
+    {
+        "dept": "SPAN",
+        "number": "319"
+    },
+    {
+        "dept": "SPAN",
+        "number": "407"
+    },
+    {
+        "dept": "SPED",
+        "number": "316"
+    },
+    {
+        "dept": "SPED",
+        "number": "321"
+    },
+    {
+        "dept": "SPED",
+        "number": "325"
+    },
+    {
+        "dept": "SPED",
+        "number": "410"
+    },
+    {
+        "dept": "SPEN",
+        "number": "201"
+    },
+    {
+        "dept": "SPEN",
+        "number": "223"
+    },
+    {
+        "dept": "SPEN",
+        "number": "324"
+    },
+    {
+        "dept": "SPEN",
+        "number": "354"
+    },
+    {
+        "dept": "SPEN",
+        "number": "401"
+    },
+    {
+        "dept": "SPMT",
+        "number": "217"
+    },
+    {
+        "dept": "SPMT",
+        "number": "260"
+    },
+    {
+        "dept": "SPMT",
+        "number": "262"
+    },
+    {
+        "dept": "SPMT",
+        "number": "265"
+    },
+    {
+        "dept": "SPMT",
+        "number": "270"
+    },
+    {
+        "dept": "SPMT",
+        "number": "272"
+    },
+    {
+        "dept": "SPMT",
+        "number": "295"
+    },
+    {
+        "dept": "SPMT",
+        "number": "319"
+    },
+    {
+        "dept": "SPMT",
+        "number": "360"
+    },
+    {
+        "dept": "SPMT",
+        "number": "362"
+    },
+    {
+        "dept": "SPMT",
+        "number": "364"
+    },
+    {
+        "dept": "SPMT",
+        "number": "366"
+    },
+    {
+        "dept": "SPMT",
+        "number": "370"
+    },
+    {
+        "dept": "SPMT",
+        "number": "372"
+    },
+    {
+        "dept": "SPMT",
+        "number": "374"
+    },
+    {
+        "dept": "SPMT",
+        "number": "402"
+    },
+    {
+        "dept": "SPMT",
+        "number": "481"
+    },
+    {
+        "dept": "STAT",
+        "number": "201"
+    },
+    {
+        "dept": "STAT",
+        "number": "211"
+    },
+    {
+        "dept": "STAT",
+        "number": "212"
+    },
+    {
+        "dept": "STAT",
+        "number": "301"
+    },
+    {
+        "dept": "STAT",
+        "number": "302"
+    },
+    {
+        "dept": "STAT",
+        "number": "303"
+    },
+    {
+        "dept": "STAT",
+        "number": "312"
+    },
+    {
+        "dept": "STAT",
+        "number": "315"
+    },
+    {
+        "dept": "STAT",
+        "number": "335"
+    },
+    {
+        "dept": "STAT",
+        "number": "404"
+    },
+    {
+        "dept": "STAT",
+        "number": "408"
+    },
+    {
+        "dept": "STAT",
+        "number": "414"
+    },
+    {
+        "dept": "STAT",
+        "number": "415"
+    },
+    {
+        "dept": "STAT",
+        "number": "421"
+    },
+    {
+        "dept": "STAT",
+        "number": "424"
+    },
+    {
+        "dept": "STAT",
+        "number": "436"
+    },
+    {
+        "dept": "STAT",
+        "number": "446"
+    },
+    {
+        "dept": "STAT",
+        "number": "601"
+    },
+    {
+        "dept": "STAT",
+        "number": "608"
+    },
+    {
+        "dept": "STAT",
+        "number": "652"
+    },
+    {
+        "dept": "TEFB",
+        "number": "273"
+    },
+    {
+        "dept": "TEFB",
+        "number": "322"
+    },
+    {
+        "dept": "TEFB",
+        "number": "324"
+    },
+    {
+        "dept": "TEFB",
+        "number": "371"
+    },
+    {
+        "dept": "TEFB",
+        "number": "410"
+    },
+    {
+        "dept": "TEFB",
+        "number": "412"
+    },
+    {
+        "dept": "TEFB",
+        "number": "413"
+    },
+    {
+        "dept": "THEA",
+        "number": "200"
+    },
+    {
+        "dept": "THEA",
+        "number": "210"
+    },
+    {
+        "dept": "THEA",
+        "number": "220"
+    },
+    {
+        "dept": "THEA",
+        "number": "245"
+    },
+    {
+        "dept": "THEA",
+        "number": "310"
+    },
+    {
+        "dept": "THEA",
+        "number": "386"
+    },
+    {
+        "dept": "URPN",
+        "number": "201"
+    },
+    {
+        "dept": "URPN",
+        "number": "202"
+    },
+    {
+        "dept": "URPN",
+        "number": "210"
+    },
+    {
+        "dept": "URPN",
+        "number": "220"
+    },
+    {
+        "dept": "URPN",
+        "number": "310"
+    },
+    {
+        "dept": "URPN",
+        "number": "320"
+    },
+    {
+        "dept": "URPN",
+        "number": "325"
+    },
+    {
+        "dept": "URPN",
+        "number": "331"
+    },
+    {
+        "dept": "URPN",
+        "number": "450"
+    },
+    {
+        "dept": "URPN",
+        "number": "469"
+    },
+    {
+        "dept": "URPN",
+        "number": "483"
+    },
+    {
+        "dept": "VIBS",
+        "number": "111"
+    },
+    {
+        "dept": "VIBS",
+        "number": "201"
+    },
+    {
+        "dept": "VIBS",
+        "number": "222"
+    },
+    {
+        "dept": "VIBS",
+        "number": "277"
+    },
+    {
+        "dept": "VIBS",
+        "number": "305"
+    },
+    {
+        "dept": "VIBS",
+        "number": "310"
+    },
+    {
+        "dept": "VIBS",
+        "number": "311"
+    },
+    {
+        "dept": "VIBS",
+        "number": "401"
+    },
+    {
+        "dept": "VIBS",
+        "number": "402"
+    },
+    {
+        "dept": "VIBS",
+        "number": "407"
+    },
+    {
+        "dept": "VIBS",
+        "number": "424"
+    },
+    {
+        "dept": "VIBS",
+        "number": "426"
+    },
+    {
+        "dept": "VIST",
+        "number": "101"
+    },
+    {
+        "dept": "VIST",
+        "number": "105"
+    },
+    {
+        "dept": "VIST",
+        "number": "106"
+    },
+    {
+        "dept": "VIST",
+        "number": "172"
+    },
+    {
+        "dept": "VIST",
+        "number": "173"
+    },
+    {
+        "dept": "VIST",
+        "number": "205"
+    },
+    {
+        "dept": "VIST",
+        "number": "206"
+    },
+    {
+        "dept": "VIST",
+        "number": "215"
+    },
+    {
+        "dept": "VIST",
+        "number": "216"
+    },
+    {
+        "dept": "VIST",
+        "number": "225"
+    },
+    {
+        "dept": "VIST",
+        "number": "272"
+    },
+    {
+        "dept": "VIST",
+        "number": "275"
+    },
+    {
+        "dept": "VIST",
+        "number": "283"
+    },
+    {
+        "dept": "VIST",
+        "number": "301"
+    },
+    {
+        "dept": "VIST",
+        "number": "305"
+    },
+    {
+        "dept": "VIST",
+        "number": "310"
+    },
+    {
+        "dept": "VIST",
+        "number": "325"
+    },
+    {
+        "dept": "VIST",
+        "number": "333"
+    },
+    {
+        "dept": "VIST",
+        "number": "339"
+    },
+    {
+        "dept": "VIST",
+        "number": "372"
+    },
+    {
+        "dept": "VIST",
+        "number": "386"
+    },
+    {
+        "dept": "VIST",
+        "number": "408"
+    },
+    {
+        "dept": "VIST",
+        "number": "425"
+    },
+    {
+        "dept": "VIST",
+        "number": "476"
+    },
+    {
+        "dept": "VIST",
+        "number": "477"
+    },
+    {
+        "dept": "VIST",
+        "number": "487"
+    },
+    {
+        "dept": "VIST",
+        "number": "494"
+    },
+    {
+        "dept": "VTPB",
+        "number": "301"
+    },
+    {
+        "dept": "VTPB",
+        "number": "405"
+    },
+    {
+        "dept": "VTPB",
+        "number": "409"
+    },
+    {
+        "dept": "VTPB",
+        "number": "425"
+    },
+    {
+        "dept": "VTPB",
+        "number": "426"
+    },
+    {
+        "dept": "VTPB",
+        "number": "438"
+    },
+    {
+        "dept": "VTPP",
+        "number": "123"
+    },
+    {
+        "dept": "VTPP",
+        "number": "207"
+    },
+    {
+        "dept": "VTPP",
+        "number": "208"
+    },
+    {
+        "dept": "VTPP",
+        "number": "223"
+    },
+    {
+        "dept": "VTPP",
+        "number": "224"
+    },
+    {
+        "dept": "VTPP",
+        "number": "234"
+    },
+    {
+        "dept": "VTPP",
+        "number": "235"
+    },
+    {
+        "dept": "VTPP",
+        "number": "401"
+    },
+    {
+        "dept": "VTPP",
+        "number": "423"
+    },
+    {
+        "dept": "VTPP",
+        "number": "424"
+    },
+    {
+        "dept": "VTPP",
+        "number": "434"
+    },
+    {
+        "dept": "VTPP",
+        "number": "435"
+    },
+    {
+        "dept": "WGST",
+        "number": "200"
+    },
+    {
+        "dept": "WGST",
+        "number": "205"
+    },
+    {
+        "dept": "WGST",
+        "number": "207"
+    },
+    {
+        "dept": "WGST",
+        "number": "210"
+    },
+    {
+        "dept": "WGST",
+        "number": "213"
+    },
+    {
+        "dept": "WGST",
+        "number": "220"
+    },
+    {
+        "dept": "WGST",
+        "number": "300"
+    },
+    {
+        "dept": "WGST",
+        "number": "303"
+    },
+    {
+        "dept": "WGST",
+        "number": "315"
+    },
+    {
+        "dept": "WGST",
+        "number": "316"
+    },
+    {
+        "dept": "WGST",
+        "number": "318"
+    },
+    {
+        "dept": "WGST",
+        "number": "330"
+    },
+    {
+        "dept": "WGST",
+        "number": "333"
+    },
+    {
+        "dept": "WGST",
+        "number": "334"
+    },
+    {
+        "dept": "WGST",
+        "number": "342"
+    },
+    {
+        "dept": "WGST",
+        "number": "343"
+    },
+    {
+        "dept": "WGST",
+        "number": "367"
+    },
+    {
+        "dept": "WGST",
+        "number": "369"
+    },
+    {
+        "dept": "WGST",
+        "number": "374"
+    },
+    {
+        "dept": "WGST",
+        "number": "377"
+    },
+    {
+        "dept": "WGST",
+        "number": "403"
+    },
+    {
+        "dept": "WGST",
+        "number": "404"
+    },
+    {
+        "dept": "WGST",
+        "number": "407"
+    },
+    {
+        "dept": "WGST",
+        "number": "410"
+    },
+    {
+        "dept": "WGST",
+        "number": "411"
+    },
+    {
+        "dept": "WGST",
+        "number": "413"
+    },
+    {
+        "dept": "WGST",
+        "number": "420"
+    },
+    {
+        "dept": "WGST",
+        "number": "421"
+    },
+    {
+        "dept": "WGST",
+        "number": "428"
+    },
+    {
+        "dept": "WGST",
+        "number": "430"
+    },
+    {
+        "dept": "WGST",
+        "number": "445"
+    },
+    {
+        "dept": "WGST",
+        "number": "461"
+    },
+    {
+        "dept": "WGST",
+        "number": "462"
+    },
+    {
+        "dept": "WGST",
+        "number": "463"
+    },
+    {
+        "dept": "WGST",
+        "number": "473"
+    },
+    {
+        "dept": "WGST",
+        "number": "474"
+    },
+    {
+        "dept": "WGST",
+        "number": "476"
+    },
+    {
+        "dept": "WGST",
+        "number": "477"
+    }
+]

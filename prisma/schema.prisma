@@ -1,0 +1,70 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Professor {
+  id          String         @id @default(cuid())
+  name        String         @unique
+  sections    CourseSection[]
+  rmpProfile  RmpProfessor?
+  redditPosts RedditPost[]
+}
+
+model CourseSection {
+  id          String    @id @default(cuid())
+  professor   Professor @relation(fields: [professorId], references: [id])
+  professorId String
+  course      String
+  semester    String
+  year        Int
+  gpa         Float
+  pctA        Float
+  pctB        Float
+  pctC        Float
+  pctD        Float
+  pctF        Float
+}
+
+model RmpProfessor {
+  id                String      @id
+  professor         Professor   @relation(fields: [professorName], references: [name])
+  professorName     String      @unique
+  avgRating         Float?
+  avgDifficulty     Float?
+  wouldTakeAgainPct Float?
+  numRatings        Int?
+  department        String?
+  reviews           RmpReview[]
+}
+
+model RmpReview {
+  id             String       @id
+  professor      RmpProfessor @relation(fields: [professorId], references: [id])
+  professorId    String
+  comment        String?
+  qualityRating  Float?
+  difficulty     Float?
+  wouldTakeAgain Boolean?
+  reviewDate     String?
+  course         String?
+}
+
+model RedditPost {
+  id            String    @id @default(cuid())
+  professor     Professor @relation(fields: [professorName], references: [name])
+  professorName String
+  postId        String    @unique
+  title         String?
+  body          String?
+  commentBody   String?
+  subreddit     String?
+  score         Int?
+  url           String?
+  createdUtc    Float?
+  sentiment     Float?
+}
