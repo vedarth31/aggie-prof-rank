@@ -1,5 +1,6 @@
 import { PrismaPg } from "@prisma/adapter-pg";
 import { PrismaClient } from "../generated/prisma/client";
+import { BM25Index } from "./bm25";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -7,7 +8,8 @@ import { PrismaClient } from "../generated/prisma/client";
 
 export type RankedProfessor = {
   professorName: string;
-  score: number; // 0–1 composite
+  score: number; // 0–1 final score (quality only for course search; BM25+quality for professor search)
+  relevance: number | null; // 0–1 BM25 score (professor search only)
   breakdown: {
     gpa: number | null; // normalized 0–1
     rmp: number | null; // normalized 0–1
@@ -108,7 +110,11 @@ type ProfessorRow = {
   redditPosts: Array<{ sentiment: number | null }>;
 };
 
-function buildResult(row: ProfessorRow): RankedProfessor {
+// Weight split between BM25 relevance and quality composite for professor search
+const BM25_WEIGHT = 0.5;
+const QUALITY_WEIGHT = 0.5;
+
+function buildResult(row: ProfessorRow, bm25Score: number | null = null): RankedProfessor {
   // GPA: mean across the provided sections
   const gpas = row.sections.map((s) => s.gpa).filter((g) => g > 0);
   const rawGpa =
@@ -135,10 +141,18 @@ function buildResult(row: ProfessorRow): RankedProfessor {
   };
 
   const courses = Array.from(new Set(row.sections.map((s) => s.course))).sort();
+  const qualityScore = computeScore(normalized);
+
+  // If a BM25 relevance score is provided, blend it with the quality score
+  const finalScore =
+    bm25Score !== null
+      ? BM25_WEIGHT * bm25Score + QUALITY_WEIGHT * qualityScore
+      : qualityScore;
 
   return {
     professorName: row.name,
-    score: computeScore(normalized),
+    score: finalScore,
+    relevance: bm25Score,
     breakdown: normalized,
     rawGpa,
     rmpRating,
@@ -191,7 +205,7 @@ export async function searchByCourse(
     });
 
     return rows
-      .map(buildResult)
+      .map((row) => buildResult(row, null))
       .sort((a, b) => b.score - a.score);
   } finally {
     await prisma.$disconnect();
@@ -199,16 +213,25 @@ export async function searchByCourse(
 }
 
 /**
- * Search professors by name (case-insensitive partial match).
+ * Search professors by name or descriptive query using BM25.
+ *
+ * Two-field BM25 index (mirrors PA1):
+ *   - name field  (weight 5.0) — professor name tokens
+ *   - body field  (weight 1.0) — concatenated RMP review comments
+ *
+ * Final score = 0.5 * BM25_relevance + 0.5 * quality_composite
  * GPA is computed across all courses the professor has taught.
  */
 export async function searchByProfessor(
-  name: string,
+  query: string,
 ): Promise<RankedProfessor[]> {
   const prisma = makePrisma();
   try {
+    // Fetch all professors with name + review text to build the BM25 corpus,
+    // plus the data needed for the quality composite score.
+    // Note: in production this index would be cached; for the checkpoint we
+    // rebuild it per-request since the corpus fits comfortably in memory.
     const rows = await prisma.professor.findMany({
-      where: { name: { contains: name.trim(), mode: "insensitive" } },
       select: {
         name: true,
         sections: { select: { gpa: true, course: true } },
@@ -218,14 +241,52 @@ export async function searchByProfessor(
             avgDifficulty: true,
             wouldTakeAgainPct: true,
             numRatings: true,
+            reviews: { select: { comment: true } },
           },
         },
         redditPosts: { select: { sentiment: true } },
       },
     });
 
+    // Build BM25 index
+    // name field  → professor name (high weight, mirrors PA1 title)
+    // body field  → concatenated RMP review comments (low weight, mirrors PA1 body)
+    const index = new BM25Index();
+    index.build(
+      rows.map((row) => ({
+        id: row.name,
+        name: row.name,
+        body: (row.rmpProfile?.reviews ?? [])
+          .map((r) => r.comment ?? "")
+          .filter(Boolean)
+          .join(" "),
+      })),
+    );
+
+    // Score the query — only professors with score > 0 are returned
+    const bm25Scores = new Map(
+      index.score(query.trim()).map((r) => [r.id, r.score]),
+    );
+
+    // Build quality-compatible rows (strip reviews from rmpProfile)
     return rows
-      .map(buildResult)
+      .filter((row) => bm25Scores.has(row.name))
+      .map((row) => {
+        const compatRow: ProfessorRow = {
+          name: row.name,
+          sections: row.sections,
+          redditPosts: row.redditPosts,
+          rmpProfile: row.rmpProfile
+            ? {
+                avgRating: row.rmpProfile.avgRating,
+                avgDifficulty: row.rmpProfile.avgDifficulty,
+                wouldTakeAgainPct: row.rmpProfile.wouldTakeAgainPct,
+                numRatings: row.rmpProfile.numRatings,
+              }
+            : null,
+        };
+        return buildResult(compatRow, bm25Scores.get(row.name) ?? null);
+      })
       .sort((a, b) => b.score - a.score);
   } finally {
     await prisma.$disconnect();
