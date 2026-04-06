@@ -10,6 +10,7 @@
     "collect:data": "tsx scripts/collect-data.ts",
     "collect:rmp-reviews": "tsx scripts/collect-rmp-reviews.ts",
     "db:counts": "tsx scripts/db-counts.ts",
+    "rank": "tsx scripts/test-rank.ts",
     "export:chart-data": "tsx scripts/export-chart-data.ts",
     "generate:charts": ".venv/bin/python scripts/generate-checkpoint-charts.py",
     "checkpoint:charts": "npm run export:chart-data && npm run generate:charts"

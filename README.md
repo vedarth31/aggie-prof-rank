@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aggie ProfRank
 
-## Getting Started
+A professor ranking and search tool for Texas A&M University. Given a course or a professor's name, it ranks professors using a composite score derived from grade distributions, RateMyProfessors ratings, and Reddit sentiment.
 
-First, run the development server:
+## Data sources
+
+| Source | Data |
+|--------|------|
+| [Anex](https://anex.us/grades/) | Grade distributions (GPA, A/B/C/D/F percentages) per section |
+| [RateMyProfessors](https://www.ratemyprofessors.com/) | Average rating, difficulty, would-take-again %, individual reviews |
+| Reddit | Posts/comments mentioning professors; pre-computed sentiment scores |
+
+## Ranking algorithm
+
+Each professor is scored on a weighted combination of four normalized signals:
+
+| Signal | Weight | Source | Normalization |
+|--------|--------|--------|---------------|
+| GPA | 30% | Anex | `(gpa − 2.0) / 2.0` → [0, 1] |
+| RMP rating | 35% | RateMyProfessors | `rating / 5.0` → [0, 1] |
+| Would-take-again | 20% | RateMyProfessors | `pct / 100` → [0, 1] |
+| Reddit sentiment | 15% | Reddit | `(sentiment + 1) / 2` → [0, 1] |
+
+If a signal is absent for a professor, its weight is redistributed proportionally across the remaining signals so all scores remain comparable.
+
+For **course search**, GPA is computed only from sections of the queried course.
+For **professor search**, GPA is averaged across all courses the professor has taught.
+
+## Setup
+
+### Prerequisites
+
+- Node.js 18+
+- A PostgreSQL database with the schema migrated (see `prisma/schema.prisma`)
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Environment
+
+Create a `.env` file in the project root:
+
+```env
+DATABASE_URL=postgresql://user:password@host:5432/dbname
+```
+
+### Populate the database
+
+```bash
+# Collect grade distributions + RMP summaries
+npm run collect:data
+
+# Collect individual RMP reviews
+npm run collect:rmp-reviews
+```
+
+## Usage
+
+### Search by course
+
+Returns professors who have taught the course, ranked by composite score:
+
+```bash
+npx tsx scripts/test-rank.ts "CSCE 221"
+npm run rank -- "CSCE 221"
+```
+
+### Search by professor name
+
+Returns professors matching the name (partial, case-insensitive), ranked by composite score:
+
+```bash
+npx tsx scripts/test-rank.ts --prof "Smith"
+npm run rank -- --prof "Leyk"
+```
+
+### Example output
+
+```
+============================================================
+Results for: Course: "CSCE 221"
+Showing top 5 of 12 professors
+============================================================
+
+#1  John Smith
+    Composite score : 0.81
+    Breakdown       : GPA=0.85  RMP=0.86  Again=0.92  Sentiment=0.61
+    Raw values      : GPA=3.70  Rating=4.3/5  Difficulty=2.8/5  WouldTakeAgain=92%  #Reviews=45
+    Courses         : CSCE 221
+...
+```
+
+## Dev server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000).
