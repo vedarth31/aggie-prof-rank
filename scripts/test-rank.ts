@@ -21,9 +21,12 @@ function printResults(results: RankedProfessor[], label: string): void {
 
   for (const [i, p] of results.slice(0, TOP_N).entries()) {
     console.log(`\n#${i + 1}  ${p.professorName}`);
-    console.log(`    Composite score : ${fmt(p.score)}`);
+    console.log(`    Final score     : ${fmt(p.score)}`);
+    if (p.relevance !== null) {
+      console.log(`    BM25 relevance  : ${fmt(p.relevance)}`);
+    }
     console.log(
-      `    Breakdown       : GPA=${fmt(p.breakdown.gpa)}  RMP=${fmt(p.breakdown.rmp)}  Again=${fmt(p.breakdown.again)}  Sentiment=${fmt(p.breakdown.sentiment)}`,
+      `    Quality         : GPA=${fmt(p.breakdown.gpa)}  RMP=${fmt(p.breakdown.rmp)}  Again=${fmt(p.breakdown.again)}  Sentiment=${fmt(p.breakdown.sentiment)}`,
     );
     console.log(
       `    Raw values      : GPA=${fmt(p.rawGpa)}  Rating=${fmt(p.rmpRating)}/5  Difficulty=${fmt(p.rmpDifficulty)}/5  WouldTakeAgain=${fmt(p.wouldTakeAgainPct)}%  #Reviews=${p.numRatings ?? "—"}`,
