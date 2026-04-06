@@ -9,20 +9,12 @@
  *   BM25tf(t, f)   = tf * (k1+1) / (tf + k1 * (1 - b + b * |f| / avgLen_f))
  */
 
-// ---------------------------------------------------------------------------
-// Tokenizer
-// ---------------------------------------------------------------------------
-
 function tokenize(text: string): string[] {
   return text
     .toLowerCase()
     .split(/[^a-z0-9]+/)
     .filter((t) => t.length > 0);
 }
-
-// ---------------------------------------------------------------------------
-// Types
-// ---------------------------------------------------------------------------
 
 export type BM25Input = {
   /** Unique identifier for the document (professor name). */
@@ -41,12 +33,7 @@ type IndexedDoc = {
   bodyLen: number;
 };
 
-// ---------------------------------------------------------------------------
-// BM25Index
-// ---------------------------------------------------------------------------
-
 export class BM25Index {
-  // Tuned to match PA1 values
   private readonly k1: number;
   private readonly b: number;
   private readonly nameWeight: number;
@@ -69,10 +56,6 @@ export class BM25Index {
     this.nameWeight = nameWeight;
     this.bodyWeight = bodyWeight;
   }
-
-  // -------------------------------------------------------------------------
-  // Build
-  // -------------------------------------------------------------------------
 
   build(inputs: BM25Input[]): void {
     this.docs = [];
@@ -117,10 +100,6 @@ export class BM25Index {
     this.avgNameLen = this.N > 0 ? totalNameLen / this.N : 1;
     this.avgBodyLen = this.N > 0 ? totalBodyLen / this.N : 1;
   }
-
-  // -------------------------------------------------------------------------
-  // Score
-  // -------------------------------------------------------------------------
 
   private idf(term: string): number {
     const df = this.df.get(term) ?? 0;

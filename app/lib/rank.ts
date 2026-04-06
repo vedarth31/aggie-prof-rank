@@ -2,10 +2,6 @@ import { PrismaPg } from "@prisma/adapter-pg";
 import { PrismaClient } from "../generated/prisma/client";
 import { BM25Index } from "./bm25";
 
-// ---------------------------------------------------------------------------
-// Types
-// ---------------------------------------------------------------------------
-
 export type RankedProfessor = {
   professorName: string;
   score: number; // 0–1 final score (quality only for course search; BM25+quality for professor search)
@@ -24,10 +20,7 @@ export type RankedProfessor = {
   courses: string[]; // distinct courses this professor has taught
 };
 
-// ---------------------------------------------------------------------------
-// Weights (must sum to 1)
-// ---------------------------------------------------------------------------
-
+// Weights must sum to 1; missing signals have their weight redistributed.
 const WEIGHTS = {
   gpa: 0.3,
   rmp: 0.35,
@@ -36,10 +29,6 @@ const WEIGHTS = {
 } as const;
 
 type SignalKey = keyof typeof WEIGHTS;
-
-// ---------------------------------------------------------------------------
-// Normalizers
-// ---------------------------------------------------------------------------
 
 /** GPA 2.0 → 0,  4.0 → 1 */
 function normalizeGpa(gpa: number): number {
@@ -61,10 +50,6 @@ function normalizeSentiment(sentiment: number): number {
   return Math.max(0, Math.min(1, (sentiment + 1) / 2));
 }
 
-// ---------------------------------------------------------------------------
-// Score computation (redistributes weight for missing signals)
-// ---------------------------------------------------------------------------
-
 type Signals = { [K in SignalKey]: number | null };
 
 function computeScore(signals: Signals): number {
@@ -83,20 +68,12 @@ function computeScore(signals: Signals): number {
   return weightedSum / totalWeight;
 }
 
-// ---------------------------------------------------------------------------
-// Prisma client factory (used by both search functions)
-// ---------------------------------------------------------------------------
-
 function makePrisma(): PrismaClient {
   const url = process.env.DATABASE_URL;
   if (!url) throw new Error("DATABASE_URL is required in environment.");
   const adapter = new PrismaPg({ connectionString: url });
   return new PrismaClient({ adapter });
 }
-
-// ---------------------------------------------------------------------------
-// Shared result builder
-// ---------------------------------------------------------------------------
 
 type ProfessorRow = {
   name: string;
@@ -163,10 +140,6 @@ function buildResult(row: ProfessorRow, bm25Score: number | null = null): Ranked
   };
 }
 
-// ---------------------------------------------------------------------------
-// Public API
-// ---------------------------------------------------------------------------
-
 /**
  * Rank professors who have taught a course.
  * `course` is matched case-insensitively (e.g. "csce 221", "CSCE221", "221").
@@ -215,22 +188,17 @@ export async function searchByCourse(
 /**
  * Search professors by name or descriptive query using BM25.
  *
- * Two-field BM25 index (mirrors PA1):
- *   - name field  (weight 5.0) — professor name tokens
- *   - body field  (weight 1.0) — concatenated RMP review comments
+ * Two-field BM25 index:
+ *   - name field (weight 5.0) — professor name tokens
+ *   - body field (weight 1.0) — department, courses taught, RMP review text
  *
  * Final score = 0.5 * BM25_relevance + 0.5 * quality_composite
- * GPA is computed across all courses the professor has taught.
  */
 export async function searchByProfessor(
   query: string,
 ): Promise<RankedProfessor[]> {
   const prisma = makePrisma();
   try {
-    // Fetch all professors with name + review text to build the BM25 corpus,
-    // plus the data needed for the quality composite score.
-    // Note: in production this index would be cached; for the checkpoint we
-    // rebuild it per-request since the corpus fits comfortably in memory.
     const rows = await prisma.professor.findMany({
       select: {
         name: true,
@@ -241,34 +209,35 @@ export async function searchByProfessor(
             avgDifficulty: true,
             wouldTakeAgainPct: true,
             numRatings: true,
-            reviews: { select: { comment: true } },
+            department: true,
+            reviews: { select: { comment: true, course: true } },
           },
         },
         redditPosts: { select: { sentiment: true } },
       },
     });
 
-    // Build BM25 index
-    // name field  → professor name (high weight, mirrors PA1 title)
-    // body field  → concatenated RMP review comments (low weight, mirrors PA1 body)
     const index = new BM25Index();
     index.build(
       rows.map((row) => ({
         id: row.name,
         name: row.name,
-        body: (row.rmpProfile?.reviews ?? [])
-          .map((r) => r.comment ?? "")
-          .filter(Boolean)
-          .join(" "),
+        body: [
+          row.rmpProfile?.department ?? "",
+          ...row.sections.map((s) => s.course),
+          ...(row.rmpProfile?.reviews ?? []).map((r) =>
+            [r.course ?? "", r.comment ?? ""].join(" "),
+          ),
+        ]
+          .join(" ")
+          .trim(),
       })),
     );
 
-    // Score the query — only professors with score > 0 are returned
     const bm25Scores = new Map(
       index.score(query.trim()).map((r) => [r.id, r.score]),
     );
 
-    // Build quality-compatible rows (strip reviews from rmpProfile)
     return rows
       .filter((row) => bm25Scores.has(row.name))
       .map((row) => {
