@@ -9,6 +9,7 @@
     "lint": "eslint",
     "collect:data": "tsx scripts/collect-data.ts",
     "collect:rmp-reviews": "tsx scripts/collect-rmp-reviews.ts",
+    "collect:reddit": "tsx scripts/collect-reddit.ts",
     "db:counts": "tsx scripts/db-counts.ts",
     "rank": "tsx scripts/test-rank.ts",
     "export:chart-data": "tsx scripts/export-chart-data.ts",
@@ -25,6 +26,7 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "recharts": "^3.8.1",
+    "sentiment": "^5.0.2",
     "tsx": "^4.21.0"
   },
   "devDependencies": {
@@ -32,6 +34,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/sentiment": "^5.0.4",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
     "tailwindcss": "^4",

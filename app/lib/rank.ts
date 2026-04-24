@@ -12,6 +12,14 @@ export type RmpReviewSnippet = {
   isCourseMatch: boolean; // true if this review is for the searched course
 };
 
+export type RedditPostSnippet = {
+  title: string | null;
+  url: string | null;
+  subreddit: string | null;
+  score: number | null;
+  sentiment: number | null;
+};
+
 export type GradeSemester = {
   label: string;   // e.g. "Fall 2022"
   year: number;
@@ -41,6 +49,7 @@ export type RankedProfessor = {
   numRatings: number | null;
   courses: string[]; // distinct courses this professor has taught
   topReviews: RmpReviewSnippet[]; // top reviews for course search (empty for professor search)
+  redditPosts: RedditPostSnippet[]; // top Reddit mentions (shown in both modes)
   tags: string[]; // TF-IDF keywords extracted from reviews (course search only)
   confidence: number; // 0–1 Bayesian confidence based on number of RMP reviews
   gradeHistory: GradeSemester[]; // per-semester grade breakdown (course search only)
@@ -56,7 +65,7 @@ const WEIGHTS = {
 
 type SignalKey = keyof typeof WEIGHTS;
 
-/** GPA 2.0 → 0,  4.0 → 1 */
+/** GPA 2.0 → 0, 4.0 → 1 */
 function normalizeGpa(gpa: number): number {
   return Math.max(0, Math.min(1, (gpa - 2.0) / 2.0));
 }
@@ -120,7 +129,7 @@ type ProfessorRow = {
     wouldTakeAgainPct: number | null;
     numRatings: number | null;
   } | null;
-  redditPosts: Array<{ sentiment: number | null }>;
+  redditPosts: Array<{ sentiment: number | null; title: string | null; url: string | null; subreddit: string | null; score: number | null }>;
   topReviews?: RmpReviewSnippet[];
   tags?: string[];
 };
@@ -151,16 +160,16 @@ const STOPWORDS = new Set([
   "something", "anything", "nothing", "everything", "someone",
   "anyone", "everyone", "little", "quite", "pretty", "sure", "thing",
   "things", "actually", "basically", "literally", "definitely",
-  "probably", "possible", "possible", "cannot", "able", "able",
+  "probably", "possible", "cannot", "able",
   "week", "weeks", "month", "months", "year", "years", "day", "days",
-  "missed", "miss", "overall", "though", "although", "however",
+  "missed", "miss", "overall", "though", "although",
   "unless", "while", "since", "because", "again", "already", "often",
   "sometimes", "usually", "either", "both", "first", "last", "next",
   "other", "another", "each", "enough", "else", "until", "once",
   "twice", "makes", "going", "getting", "looking", "seems", "using",
   "must", "long", "point", "points", "right", "left", "mean", "means",
   "said", "says", "seen", "new", "old", "high", "low", "big", "small",
-  "better", "worse", "best", "worst", "super", "super", "pretty",
+  "better", "worse", "best", "worst", "super", "pretty",
   // generic review/academic words (too common across all professors)
   "class", "professor", "prof", "course", "lecture", "lectures",
   "student", "students", "teacher", "time", "good", "great", "bad",
@@ -170,9 +179,9 @@ const STOPWORDS = new Set([
   "helpful", "office", "hours", "syllabus", "textbook", "book",
   "assignment", "assignments", "project", "projects", "quiz", "quizzes",
   "attend", "attendance", "online", "zoom", "canvas", "email",
-  "question", "questions", "answer", "answers", "lecture", "slides",
+  "question", "questions", "answer", "answers", "slides",
   "note", "notes", "review", "reviews", "feedback", "extra", "credit",
-  "guest", "make", "sure", "able", "actually", "tamu", "aggie",
+  "guest", "make", "tamu", "aggie",
   "texas", "college", "university", "department", "engineering",
 ]);
 
@@ -262,7 +271,7 @@ function computeReviewTags(
 
   const N = tfMaps.size;
 
-  // TF-IDF per phrase per professor → pick top N
+  // TF-IDF per phrase per professor to pick top N
   const tags = new Map<string, string[]>();
   for (const [name, tf] of tfMaps) {
     const scored: Array<[string, number]> = [];
@@ -272,9 +281,6 @@ function computeReviewTags(
       scored.push([phrase, freq * idf]);
     }
     scored.sort((a, b) => b[1] - a[1]);
-    // Greedily pick top-N phrases, skipping any bigram that is already covered
-    // by a higher-scored trigram already in the kept list. This is O(n * topN)
-    // rather than O(n²) since we stop as soon as we have topN results.
     const kept: string[] = [];
     for (const [phrase] of scored) {
       if (!kept.some((other) => other.includes(phrase))) {
@@ -389,6 +395,17 @@ function buildResult(row: ProfessorRow, bm25Score: number | null = null): Ranked
     numRatings: row.rmpProfile?.numRatings ?? null,
     courses,
     topReviews: row.topReviews ?? [],
+    redditPosts: row.redditPosts
+      .filter((p) => p.title && p.url)
+      .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+      .slice(0, 5)
+      .map((p) => ({
+        title: p.title,
+        url: p.url,
+        subreddit: p.subreddit,
+        score: p.score,
+        sentiment: p.sentiment,
+      })),
     tags: row.tags ?? [],
     gradeHistory,
   };
@@ -437,7 +454,7 @@ export async function searchByCourse(
             },
           },
         },
-        redditPosts: { select: { sentiment: true } },
+        redditPosts: { select: { sentiment: true, title: true, url: true, subreddit: true, score: true } },
       },
     });
 
@@ -463,7 +480,7 @@ export async function searchByCourse(
       .map((row) => {
         const pool = reviewPools.get(row.name) ?? [];
 
-        // Top 3 by most recent (reviewDate desc), must have a non-empty comment
+        // Top 3 by most recent (reviewDate desc) with non-empty comment
         const topReviews = pool
           .filter((r): r is typeof r & { comment: string } =>
             typeof r.comment === "string" && r.comment.trim().length > 0
@@ -527,7 +544,7 @@ export async function searchByProfessor(
             reviews: { select: { comment: true, course: true } },
           },
         },
-        redditPosts: { select: { sentiment: true } },
+        redditPosts: { select: { sentiment: true, title: true, url: true, subreddit: true, score: true } },
       },
     });
 

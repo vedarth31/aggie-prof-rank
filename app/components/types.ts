@@ -39,6 +39,14 @@ export type Breakdown = {
   sentiment: number | null;
 };
 
+export type RedditPostSnippet = {
+  title: string | null;
+  url: string | null;
+  subreddit: string | null;
+  score: number | null;
+  sentiment: number | null;
+};
+
 export type ReviewSnippet = {
   comment: string;
   qualityRating: number | null;
@@ -74,6 +82,7 @@ export type Professor = {
   numRatings: number | null;
   courses: string[];
   topReviews: ReviewSnippet[];
+  redditPosts: RedditPostSnippet[];
   tags: string[];
   gradeHistory: GradeSemester[];
 };

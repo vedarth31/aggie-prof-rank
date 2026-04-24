@@ -80,20 +80,22 @@ export default function ProfCard({
 
   const displayCourses = prof.courses.slice(0, 5).join(", ");
   const extraCourses = prof.courses.length > 5 ? ` (+${prof.courses.length - 5} more)` : "";
-  const hasReviews = mode === "course" && prof.topReviews.length > 0;
+  const hasRmpReviews = mode === "course" && prof.topReviews.length > 0;
+  const hasReddit = prof.redditPosts.length > 0;
+  const hasReviews = hasRmpReviews || hasReddit;
 
   return (
     <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow">
       {/*
-        The relative wrapper's height is driven solely by the left column (normal flow).
-        The reviews panel is absolutely positioned (top-0/bottom-0) so it fills that
-        exact height — giving overflow-y-auto a real constraint to scroll within.
-        pr-[400px] = w-96 (384px) + 16px gap, so left content doesn't slide under reviews.
+        Padding-right reserves space for the absolutely-positioned side panels:
+        - both panels (RMP + Reddit): 2 × 224px + 12px gap + 16px border/pad ≈ 476px
+        - one panel only: 224px + 16px ≈ 240px
       */}
-      <div className={`relative ${hasReviews ? "pr-[400px]" : ""}`}>
-        {/* Left: main content */}
+      <div className={`relative ${
+        hasRmpReviews && hasReddit ? "pr-119" :
+        hasReviews ? "pr-60" : ""
+      }`}>
         <div className="flex flex-col">
-          {/* Header row */}
           <div className="flex items-start justify-between mb-3">
             <div className="flex items-center gap-3">
               <span
@@ -165,11 +167,11 @@ export default function ProfCard({
 
           {/* Stats row */}
           <div className="mt-4 flex flex-wrap gap-2 border-t border-gray-100 pt-3">
-            <Stat label="GPA"        value={fmt(prof.rawGpa)}                                        tier={gpaTier} />
-            <Stat label="Rating"     value={prof.rmpRating !== null ? `${fmt(prof.rmpRating, 1)}/5` : "—"}    tier={ratingTier} />
+            <Stat label="GPA" value={fmt(prof.rawGpa)} tier={gpaTier} />
+            <Stat label="Rating" value={prof.rmpRating !== null ? `${fmt(prof.rmpRating, 1)}/5` : "—"} tier={ratingTier} />
             <Stat label="Difficulty" value={prof.rmpDifficulty !== null ? `${fmt(prof.rmpDifficulty, 1)}/5` : "—"} tier={diffTier} />
-            <Stat label="Again"      value={prof.wouldTakeAgainPct !== null ? `${fmt(prof.wouldTakeAgainPct, 0)}%` : "—"} tier={againTier} />
-            <Stat label="Reviews"    value={prof.numRatings !== null ? String(prof.numRatings) : "—"} tier="neutral" />
+            <Stat label="Again" value={prof.wouldTakeAgainPct !== null ? `${fmt(prof.wouldTakeAgainPct, 0)}%` : "—"} tier={againTier} />
+            <Stat label="Reviews" value={prof.numRatings !== null ? String(prof.numRatings) : "—"} tier="neutral" />
             {prof.breakdown.sentiment !== null && (
               <Stat label="Sentiment" value={pct(prof.breakdown.sentiment)} tier={sentTier} />
             )}
@@ -187,59 +189,108 @@ export default function ProfCard({
             <button
               onClick={onToggleCompare}
               disabled={compareDisabled && !isCompared}
-              className={`text-xs font-medium px-3 py-1.5 rounded-lg border transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed ${
-                isCompared
+              className={`text-xs font-medium px-3 py-1.5 rounded-lg border transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed ${isCompared
                   ? "bg-[#500000] text-white border-[#500000]"
                   : "bg-white text-gray-500 border-gray-200 hover:border-gray-400"
-              }`}
+                }`}
             >
               {isCompared ? "✓ Added to compare" : "+ Compare"}
             </button>
           </div>
         </div>
 
-        {/* Right: reviews panel — absolutely pinned top-to-bottom, scrolls within left column height */}
+        {/* Two side-by-side panels pinned to the right, height = left column */}
         {hasReviews && (
-          <div className="absolute top-0 right-0 bottom-0 w-96 overflow-y-auto border-l border-gray-100 pl-4 flex flex-col gap-2.5">
-            <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
-              Recent Reviews ({prof.topReviews.length})
-            </p>
-            {prof.topReviews.every((r) => !r.isCourseMatch) && (
-              <p className="text-xs text-gray-400 italic">
-                Showing general reviews - none found for this course.
-              </p>
+          <div className="absolute top-0 right-0 bottom-0 flex gap-3">
+
+            {/* RMP Reviews panel (course search only) */}
+            {hasRmpReviews && (
+              <div className="w-56 overflow-y-auto border-l border-gray-100 pl-3 flex flex-col gap-2.5">
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+                  RMP Reviews ({prof.topReviews.length})
+                </p>
+                {prof.topReviews.every((r) => !r.isCourseMatch) && (
+                  <p className="text-xs text-gray-400 italic">
+                    Showing general reviews — none found for this course.
+                  </p>
+                )}
+                {prof.topReviews.map((r, i) => {
+                  const accentColor =
+                    r.qualityRating === null ? "border-l-gray-200"
+                      : r.qualityRating >= 4 ? "border-l-green-400"
+                        : r.qualityRating >= 3 ? "border-l-amber-400"
+                          : "border-l-red-400";
+                  return (
+                    <div
+                      key={i}
+                      className={`bg-gray-50 rounded-r-lg p-3 text-xs text-gray-700 border border-gray-100 border-l-4 ${accentColor}`}
+                    >
+                      <div className="flex items-center justify-between mb-1.5 gap-1 flex-wrap">
+                        <div className="flex items-center gap-1.5">
+                          <StarRating value={r.qualityRating} />
+                          {r.wouldTakeAgain !== null && (
+                            <span className={`px-1.5 py-0.5 rounded-full text-xs font-medium ${r.wouldTakeAgain ? "bg-green-100 text-green-700" : "bg-red-100 text-red-600"}`}>
+                              {r.wouldTakeAgain ? "✓ again" : "✗ again"}
+                            </span>
+                          )}
+                        </div>
+                        <div className="flex items-center gap-1 text-gray-400">
+                          {r.course && <span className="font-medium">{r.course}</span>}
+                          {r.reviewDate && <span>· {formatReviewDate(r.reviewDate)}</span>}
+                        </div>
+                      </div>
+                      <p className="leading-relaxed text-gray-600">{r.comment}</p>
+                    </div>
+                  );
+                })}
+              </div>
             )}
-            {prof.topReviews.map((r, i) => {
-              const accentColor =
-                r.qualityRating === null ? "border-l-gray-200"
-                  : r.qualityRating >= 4 ? "border-l-green-400"
-                    : r.qualityRating >= 3 ? "border-l-amber-400"
-                      : "border-l-red-400";
-              return (
-                <div
-                  key={i}
-                  className={`bg-gray-50 rounded-r-lg p-3 text-xs text-gray-700 border border-gray-100 border-l-4 ${accentColor}`}
-                >
-                  <div className="flex items-center justify-between mb-1.5 gap-1 flex-wrap">
-                    <div className="flex items-center gap-1.5">
-                      <StarRating value={r.qualityRating} />
-                      {r.wouldTakeAgain !== null && (
-                        <span className={`px-1.5 py-0.5 rounded-full text-xs font-medium ${
-                          r.wouldTakeAgain ? "bg-green-100 text-green-700" : "bg-red-100 text-red-600"
-                        }`}>
-                          {r.wouldTakeAgain ? "✓ again" : "✗ again"}
-                        </span>
-                      )}
+
+            {/* Reddit mentions panel */}
+            {hasReddit && (
+              <div className="w-56 overflow-y-auto border-l border-gray-100 pl-3 flex flex-col gap-2.5">
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+                  Reddit ({prof.redditPosts.length})
+                </p>
+                {prof.redditPosts.map((p, i) => {
+                  const sentColor =
+                    p.sentiment === null ? "bg-gray-100 text-gray-500"
+                      : p.sentiment > 0.1 ? "bg-green-100 text-green-700"
+                        : p.sentiment < -0.1 ? "bg-red-100 text-red-600"
+                          : "bg-gray-100 text-gray-500";
+                  const sentLabel =
+                    p.sentiment === null ? "neutral"
+                      : p.sentiment > 0.1 ? "positive"
+                        : p.sentiment < -0.1 ? "negative"
+                          : "neutral";
+                  return (
+                    <div
+                      key={i}
+                      className="bg-orange-50 rounded-r-lg p-3 text-xs border border-orange-100 border-l-4 border-l-orange-300"
+                    >
+                      <div className="flex items-center justify-between mb-1.5 gap-1 flex-wrap">
+                        <span className="text-gray-400 font-medium">r/{p.subreddit}</span>
+                        <div className="flex items-center gap-1.5">
+                          {p.score !== null && <span className="text-gray-400">▲ {p.score}</span>}
+                          <span className={`px-1.5 py-0.5 rounded-full font-medium ${sentColor}`}>
+                            {sentLabel}
+                          </span>
+                        </div>
+                      </div>
+                      <a
+                        href={p.url ?? "#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-700 hover:text-orange-700 hover:underline leading-snug line-clamp-2 block"
+                      >
+                        {p.title}
+                      </a>
                     </div>
-                    <div className="flex items-center gap-1 text-gray-400">
-                      {r.course && <span className="font-medium">{r.course}</span>}
-                      {r.reviewDate && <span>· {formatReviewDate(r.reviewDate)}</span>}
-                    </div>
-                  </div>
-                  <p className="leading-relaxed text-gray-600">{r.comment}</p>
-                </div>
-              );
-            })}
+                  );
+                })}
+              </div>
+            )}
+
           </div>
         )}
       </div>
